@@ -1,0 +1,40 @@
+var express = require('express');
+var router = express.Router();
+const path = require('path')
+const sgMail = require('@sendgrid/mail');
+require('dotenv').config()
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
+/* GET home page. */
+router.get('/', function (req, res, next) {
+  
+  res.render('index', { title: 'Tech Pranee' });
+});
+router.get('/privacy', function (req, res, next) {
+  res.render('privacy', { title: 'Tech Pranee' });
+});
+router.post('/email', function (req, res, next) {
+  // console.log(process.env.SENDGRID_API_KEY)
+  // console.log(req.body)
+  let name = req.body.name
+  let email = req.body.email
+  let message = req.body.message
+  const msg = {
+    to: 'rajulapudip@gmail.com',
+    cc: 'techpranee@gmail.com',
+    from: 'techpranee@gmail.com',
+    subject: `TECH PRANEE SERVICES REQUIRED FOR ${name} with email :${email}`,
+    text: message,
+    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+  };
+
+  sgMail.send(msg).then(() => {
+    res.status(200).send('OK');
+  }).catch((err) => {
+    console.log(err.response.body.errors)
+    res.status(400).send('Msg was not sent Please contact +91-7032160008');
+  })
+
+});
+
+module.exports = router;
