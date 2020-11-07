@@ -7,12 +7,22 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  
-  res.render('index', { title: 'Tech Pranee' });
+
+  res.render('index');
 });
 router.get('/privacy', function (req, res, next) {
-  res.render('privacy', { title: 'Tech Pranee' });
+  res.render('privacy');
 });
+
+
+router.get('/products', function (req, res, next) {
+  let product = { name: "n-Butyl Lithium" }
+  res.render('productsPage', { product });
+});
+
+
+
+
 router.post('/email', function (req, res, next) {
   // console.log(process.env.SENDGRID_API_KEY)
   // console.log(req.body)
