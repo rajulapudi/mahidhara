@@ -61,7 +61,51 @@
             </div>
             
         </section>
-
+        <section>
+            <div class="container" style="max-width: 900px;">
+                <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6>
+                <table class="table">
+                    <thead>
+                    <tr>
+                       <th scope="col">Specification</th><th scope="col">Value</th>
+                    </tr>
+  </thead>
+  <tbody>
+                    <% product.specifications.forEach(spec => { %>
+                        <tr>
+                            <td><%= spec.key %> </td><td><%= spec.value %></td>
+                         </tr>
+                    <% }) %>
+                </tbody>
+                 </table>
+            </div>
+          
+        </section>
+<section>
+    <div class="container" style="max-width: 900px;">
+        <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Packaging</h6>
+        <%= product.packing %> 
+    </div>
+</section>
+<section>
+    <div class="container" style="max-width: 900px;">
+        <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Applications</h6>
+        <ol>
+            <% product.applications.forEach(appl => { %>
+             <li><%= appl %> </li>
+            <% }) %>
+        </ol>
+        <p style="font-weight: 100; font-size: smaller; font-style: italic;">* <%= product.note %> </p>
+    </div>
+</section>
+<section>
+    <div class="container" style="max-width: 900px;">
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-theme" style="margin-right: 50px;">Download Brochure</button><button type="button" class="btn btn-theme">Enquiry</button>
+        </div>
+        
+    </div>
+</section>
     </main>
     <%- include('footer'); -%>
     <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
