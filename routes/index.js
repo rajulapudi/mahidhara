@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 const path = require('path')
 const sgMail = require('@sendgrid/mail');
+let products = require('../data/products.json')
 require('dotenv').config()
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
@@ -16,8 +17,7 @@ router.get('/privacy', function (req, res, next) {
 
 
 router.get('/products', function (req, res, next) {
-  let product = { name: "n-Butyl Lithium" }
-  res.render('productsPage', { product });
+  res.render('singleProduct', { product: products[0] });
 });
 
 
