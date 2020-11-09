@@ -23,7 +23,7 @@
             },
             {
                 "key": "Assay % w/w (NBL Content as active base)",
-                "value": "15.0% w/w +/- 0.05% w/w (For 15% solution) \n 23.0% w/w +/- 0.05% w/w"
+                "value": "15.0% w/w +/- 0.05% w/w (For 15% solution) \n 23.0% w/w +/- 0.05% w/w (For 23% solution)"
             }
         ],
         "packing": "274 kgs of net material (as 15%) / 270 kgs of net material (as 23%) packed in 450 Ltrs capacity steel containers under nitrogen/argon atmosphere.",
@@ -32,65 +32,306 @@
             "It is used as an initiator in the anionic polymerization of conjugated dienes like butadiene, isoprene and vinyl aromatic compounds like styrene to produce wide variety of useful rubber and plastic goods.",
             "n-Butyl Lithium is used in organic synthesis as a butylating agent (addition and in halogen-metal and hydrogen-metal exchange reactions (Metalations or Lithiations)"
         ],
-        "note": "Alkyl-lithium compounds are stored under inert gas for safety reasons and alsoto prevent loss of activity"
-    },
-    {
-        "name": "n-butyl Lithium (15% / 23% w/w in Hexane)",
-        "cas": "109-72-8",
-        "molformula": "C4H9Li",
-        "molwt": "64.06 gm/mol",
-        "synonyms": "N-butyllithium, Butyl lithium, 1-lithiobutane, NBL, BuLi",
-        "pubchem": "61028",
-        "specifications": [
-            {
-                "key": "Description",
-                "value": "colorless to yellow color solution"
-            },
-            {
-                "key": "Miscibility",
-                "value": "Miscible with toluene & hexane"
-            },
-            {
-                "key": "Density @RT",
-                "value": "0.680 +/- 0.005 gm/ml (For 15% solution) \n 0.687 +/- 0.005 gm/ml (For 23% solution)"
-            },
-            {
-                "key": "Assay % w/w (NBL Content as active base)",
-                "value": "15.0% w/w +/- 0.05% w/w (For 15% solution) \n 23.0% w/w +/- 0.05% w/w"
-            }
-        ],
-        "packing": "274 kgs of net material (as 15%) / 270 kgs of net material (as 23%) packed in 450 Ltrs capacity steel containers under nitrogen/argon atmosphere.",
-        "applications": "1. n-Butyl Lithium is a highly versatile reagent in organic synthesis, especially in the synthesis of pharmaceutical intermediates \n 2. It is used as an initiator in the anionic polymerization of conjugated dienes like butadiene, isoprene and vinyl aromatic compounds like styrene to produce wide variety of useful rubber and plastic goods. \n 3. n-Butyl Lithium is used in organic synthesis as a butylating agent (addition and in halogen-metal and hydrogen-metal exchange reactions (Metalations or Lithiations)",
         "note": "Alkyl-lithium compounds are stored under inert gas for safety reasons and alsoto prevent loss of activity",
         "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for n-butyl lithium in India. n-Butyllithium (abbreviated n-BuLi) is an organolithium reagent and wide range of uses in the pharmaceutical industry. Our team is well equipped to handle the manufacturing and packaging of n-BuLi as per the requirement."
     },
     {
-        "name": "n-butyl Lithium (15% / 23% w/w in Hexane)",
-        "cas": "109-72-8",
-        "molformula": "C4H9Li",
-        "molwt": "64.06 gm/mol",
-        "synonyms": "N-butyllithium, Butyl lithium, 1-lithiobutane, NBL, BuLi",
+        "displayName": "Magnesium Tertiary Butoxide",
+        "name": "Magnesium Tertiary Butoxide",
+        "cas": "32149-57-8",
+        "molformula": "(C4H9O)2Mg / C18H18MgO2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "170.53 gm/mol",
+        "synonyms": "Magnesium tert- butoxide, Magnesium di-tert- butoxide, Magnesiumtert- butoxide, Magnesium 2- methylpropan-2-olate",
+        "pubchem": "12040442",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "white to pale yellow color powder"
+            },
+            {
+                "key": "Assay % w/w",
+                "value": "Min. 90% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere.14/15 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "applications": [
+            "Magnesium Tertiary Butoxide is used as an Auxiliary product for Organic Synthesis",
+            "It is used used as a raw material for the manufacture of Retroviral Drugs."
+        ],
+        "note": "None",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest magnesium tertiary butoxide manufacturer in India. The company introduced the product back in 2008. We take pride in introducing and developing the technology to manufacture “Magnesium Tertiary Butoxide” for the first time in the Country. The parent compound for this chemical product is Tert-butanol. Magnesium tertiary butoxide is available in white to pale yellow colour powder. Magnesium tertiary butoxide chemical is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Magnesium Tertiary Butoxide as per the requirement."
+    },
+    {
+        "displayName": "Sodium Tertiary Butoxide",
+        "name": "Sodium Tertiary Butoxide",
+        "cas": "865-48-5",
+        "molformula": "C4H9ONa",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "96.11 gm/mol",
+        "synonyms": "Sodium tert-butoxide, Sodium t-butoxide, Sodium 2-methylpropan-2-olate",
         "pubchem": "61028",
         "specifications": [
             {
                 "key": "Description",
-                "value": "colorless to yellow color solution"
+                "value": "white to pale yellow color powder"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in Methanol"
+            },
+            {
+                "key": "Moisture Content",
+                "value": "NMT 2.0% w/w"
+            },
+            {
+               "key" : "Sodium Carbonate Content",
+               "value" : "NMT 1.0% w/w"
+            },
+            {
+                "key": "Assay % w/w (Total alkalinity as STB)",
+                "value": "Min 98.0% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 2000 Ltrs capacity ring lock steel container",
+        "applications": [
+            "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation’s, condensations, elimination, isomerizations and rearrangement.",
+            "In addition, STB can be used with butyl lithium to give “super base"
+        ],
+        "note": "It is flammable and moisture sensitive",
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for sodium tertiary butoxide in India. We uses the latest technology for the production of sodium tertiary butoxide. Sodium tertiary butoxide is used widely in the pharmaceutical industry as non-nucleophilic base. With n-Butyl lithium it can be used as the super base for various chemical reactions. The product shows similar reactivity to that of Potassium tertiary Butoxide. It is also used for deprotonation in reaction types of allylations, condensations, elimination, isomerizations and rearrangement. Our team is well equipped to handle the manufacturing and packaging of STB as per the requirement."
+    },
+    {
+        "displayName": "Sodium Hexamethyl Disilazide",
+        "name": "Sodium Hexamethyl Disilazide (20% / 40% / 1.0M / 2.0M in THF)",
+        "cas": "1070-89-9",
+        "molformula": "C6H18NSi2Na",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "183.38 gm/mol",
+        "synonyms": "Sodium bis(trimethylsilyl)amide, N-Sodiohexamethyldisilazane, NaHMDS ",
+        "pubchem": "2724254",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": " Light yellowish red or brown color slight turbid solution"
             },
             {
                 "key": "Miscibility",
-                "value": "Miscible with toluene & hexane"
+                "value": "Miscible with most of the organic solvents like THF, toluene & benzene"
             },
             {
-                "key": "Density @RT",
-                "value": "0.680 +/- 0.005 gm/ml (For 15% solution) \n 0.687 +/- 0.005 gm/ml (For 23% solution)"
-            },
-            {
-                "key": "Assay % w/w (NBL Content as active base)",
-                "value": "15.0% w/w +/- 0.05% w/w (For 15% solution) \n 23.0% w/w +/- 0.05% w/w"
+                "key": "Assay % w/w (by acidimetric titration)",
+                "value": "For 20% solution : 20% +/- 2% w/w \n For 40% solution : 40% +/- 2% w/w \n For 1.0M solution : 1.0 +/- 0.1M \n For 2.0M solution : 2.0 +/- 0.1M"
             }
         ],
-        "packing": "274 kgs of net material (as 15%) / 270 kgs of net material (as 23%) packed in 450 Ltrs capacity steel containers under nitrogen/argon atmosphere.",
-        "applications": "1. n-Butyl Lithium is a highly versatile reagent in organic synthesis, especially in the synthesis of pharmaceutical intermediates \n 2. It is used as an initiator in the anionic polymerization of conjugated dienes like butadiene, isoprene and vinyl aromatic compounds like styrene to produce wide variety of useful rubber and plastic goods. \n 3. n-Butyl Lithium is used in organic synthesis as a butylating agent (addition and in halogen-metal and hydrogen-metal exchange reactions (Metalations or Lithiations)",
-        "note": "Alkyl-lithium compounds are stored under inert gas for safety reasons and alsoto prevent loss of activity"
+        "packing": "175/180 kgs net material packed in 200 Ltrs capacity M.S/HDPE Drum under nitrogen blanket",
+        "applications": [
+            "Sodium Hexamethyl Disilazide widely used as metalation agent in Organic Synthesis"
+        ],
+        "note": "Highly flammable, corrosive",
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for Sodium Hexamethyl Disilazide in India. Sodium Hexamethyl Disilazide is an organosilicon compound and is used as strong base in various synthesis reactions in the pharmaceutical industry. Our team is well equipped to handle the manufacturing and packaging of Sodium Hexamethyl Disilazide as per the requirement."
+    },
+    {
+        "displayName": "n-butyl chloride",
+        "name": "n-butyl chloride",
+        "cas": "109-69-3",
+        "molformula": "C4H9Cl or CH3(CH2)3Cl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "92.57 gm/mol",
+        "synonyms": "N-BUTYL CHLORIDE, 1-Chlorobutane",
+        "pubchem": "8005",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Clear, colorless volatile liquid"
+            },
+            {
+                "key": "Miscibility",
+                "value": "Miscible with methanol & ether. Immiscible with water"
+            },
+            {
+                "key": "Specific gravity @25 C",
+                "value": "0.881 +/- 0.005"
+            },
+            {
+                "key": "Moisture content by KF% w/v",
+                "value": "Max 0.10% w/v"
+            },
+            {
+                "key": "Free acidity content % w/w",
+                "value": "Max 0.10% w/w"
+            },
+            {
+                "key": "Identification by G.C",
+                "value": "The RT of the sample should match with std. RT"
+            },
+            {
+                "key": "Purity by G.C %",
+                "value": "Min 99.0%"
+            }
+        ],
+        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity HDPE Drums",
+        "applications": [
+            "Used as a raw material for making n-Butyl Lithium",
+            "Used as a Butylating agent in the manufacture of butyl cellulose.",
+            "n-Butyl Chloride is also used in Alkylation reactions."
+        ],
+        "note": "flammable liquid",
+        "manufacturer": "Mahidhara chemical private limited is one the of leading manufacturers for n-butyl chloride. It is clear, colour less liquid which is volatile in nature. N-butyl chloride manufacturers produces it for various applications and uses. Butyl chloride appears as white liqui with a sharp odor. The Flash point is 20°F and the boiling point is 77-78°C (173°F).  It is Used as a raw material for making n-Butyl Lithium and as a Butylating agent in the manufacture of butyl cellulose. It is also used in Alkylation reactions. It is packed in HDPE Drums. To know more about n-butyl chloride contact Mahidhara chemical private limited."
+    },
+    {
+        "displayName": "Sodium Isopropoxide",
+        "name": "Sodium Isopropoxide (12% w/w in IPA)",
+        "cas": "683-60-3",
+        "molformula": "C3H7ONa",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "82.08 gm/mol",
+        "synonyms": "Sodium propan-2-olate, SODIUM ISOPROPOXIDE, 2-Propanol, sodium salt",
+        "pubchem": "10920443",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "white to pale yellow color semi solid"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in Methanol"
+            },
+            {
+                "key": "Assay % w/w (Total alkalinity as SIP)",
+                "value": "12% to 14% w/w in IPA"
+            }
+        ],
+        "packing": "5kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 4/5 nos of such packets are packed in 40/50 Ltrs capacity M.S/HDPE drum under nitrogen blanket",
+        "applications": [
+            "Sodium Isopropoxide is used as an auxiliary product for organic synthesis"
+        ],
+        "note": "moisture and air sensitive",
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for Sodium Isopropoxide in India. Sodium Isopropoxide is used as catalyst in various pharmaceutical products manufacturing. Our team is well equipped to handle the manufacturing and packaging of Sodium Isopropoxide as per the requirement. Available in 5kg packs."
+    },
+    {
+        "displayName": "Lithium Di-Isopropyl Amide",
+        "name": "Lithium Di-Isopropyl Amide (25% w/w in THF & Ethyl Benzene)",
+        "cas": "4111-54-0",
+        "molformula": "[(CH3)2CH]2N-Li",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "107.12 gm/mol",
+        "synonyms": "Lithium Diisopropylamide THF complex, Lithium Diisopropylamide, Lithium Diisopropylamine, LDA THF Complex, LDA",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "light amber to amber red color solution"
+            },
+            {
+                "key": "Assay % w/w (LDA as active base)",
+                "value": "25.0% +/- 2.0 w/w in THF & Ethyl Benzene"
+            }
+        ],
+        "packing": "Packed in 1000ml Glass / 450 Ltrs capacity steel containers / 200 Ltrs capacity drums under nitrogen atmosphere.",
+        "applications": [
+            "Lithium Di-Isopropyl Amide (LDA) is a non-pyrophoric strong base primarily used in organic Synthesis",
+            "It is also used for Enolisations"
+        ],
+        "note": "THF % = 25 +/- 5 %; Ethyl Benzene % = 45% +/- 5%",
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for Lithium Di-Isopropyl Amide (LDA) in India. Lithium Di-Isopropyl Amide (LDA) is used as a strong base and is widely used in pharmaceutical industry due to its good solubility in non-polar organic solvents. Our team is well equipped to handle the manufacturing and packaging of Lithium Di-Isopropyl Amide as per the requirement. The product is available in various packing options like 1L glass container, 200L or 450L in steel drums."
+    },
+    {
+        "displayName": "Potassium Tertiary Butoxide",
+        "name": "Potassium Tertiary Butoxide",
+        "cas": "865-47-4",
+        "molformula": "C4H9OK",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "112.2 gm/mol",
+        "synonyms": "Potassium tert-butoxide, Potassium t-butoxide, Potassium tert-butanolate, Potassium tert-butylate",
+        "pubchem": "23665647",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "white to pale yellow color powder"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in Methanol"
+            },
+            {
+                "key": "Moisture Content",
+                "value": "NMT 2.0% w/w"
+            },
+            {
+               "key" : "Sodium Carbonate Content",
+               "value" : "NMT 1.0% w/w"
+            },
+            {
+                "key": "Assay % w/w (Total alkalinity as KTB)",
+                "value": "Min 99.0% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20/25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container",
+        "applications": [
+            "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation, arylation, condensations, isomerizations, rearrangements and Witting reactions.",
+            "In addition, STB can be used with butyl lithium to give “super base"
+        ],
+        "note": "Need to handle product with care as it can be harmful due to corrosive nature",
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for Potassium tertiary butoxide in India. We uses the latest technology for the production of potassium tertiary butoxide. Potassium tertiary butoxide is used widely in the pharmaceutical industry as non-nucleophilic base. The product shows similar reactivity to that of Sodium tertiary Butoxide. It is also used for deprotonation in reaction types of allylations, condensations, elimination, isomerizations, rearrangement and Witting Reactions. Our team is well equipped to handle the manufacturing and packaging of KTB as we have more than 2 decade of manufacturing for this product."
+    },
+    {
+        "displayName": "Lithium Methoxide",
+        "name": "Lithium Methoxide (10% w/w in Methanol)",
+        "cas": "865-34-9",
+        "molformula": "CH3OLi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "37.97 gm/mol",
+        "synonyms": "Lithium methanolate, LIOME, Methanol lithium salt",
+        "pubchem": "4177230",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Colorless to pale yellow colour solution"
+            },
+            {
+                "key": "Moisture content by KF% w/v",
+                "value": "Max 0.50% w/v"
+            },
+            {
+                "key": "Assay % w/w (Total alkalinity as LMO",
+                "value": "10 +/- 1% w/w"
+            }
+        ],
+        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "applications": [
+            "Lithium Methoxide is used as an auxiliary product for organic synthesis."
+        ],
+        "note": "None",
+        "manufacturer": "If you are searching for a lithium methoxide manufacturer in India, you can surely trust Mahidhara chemical private limited. Lithium methoxide is lithium salt of methanol and is colourless to pale yellow in colour."
+    },
+    {
+        "displayName": "Potassium Hexamethyl Disilazide",
+        "name": "Potassium Hexamethyl Disilazide (25% w/w in THF)",
+        "cas": "40949-94-8",
+        "molformula": "C6H18NSi2K",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "199.48 gm/mol",
+        "synonyms": "Potassium bis(trimethylsilyl)amide, KHMDS, Potassium Hexamethyl disilazide, Hexamethyl disilazane potassium salt",
+        "pubchem": "3251421",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": " Light yellow to yellowish red color slight turbid solution"
+            },
+            {
+                "key": "Miscibility",
+                "value": "Miscible with most of aromatic hydrocarbons like THF & Toluene"
+            },
+            {
+                "key": "Assay % w/w (By Acidimetric titration)",
+                "value": "25% +/- 2.0% w/w"
+            }
+        ],
+        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "applications": [
+            "Potassium Hexamethyl Disilazide is used as Metalation agent in organic synthesis."
+        ],
+        "note": "None",
+        "manufacturer": "If you are searching for a Potassium Hexamethyl Disilazide manufacturer in India, you can surely trust Mahidhara chemical private limited. Potassium Hexamethyl Disilazide is a strong, non-nucleophilic base and is widely used in synthesis chemistry for pharmaceutical industry. We have more than 2 decade experience in manufacturing for the product. The end product is a light yellowish red colour slightly turbid solution and is available in 175 or 180 Kgs packs. Contact us now for more details"
     }
 ]
