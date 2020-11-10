@@ -333,5 +333,137 @@
         ],
         "note": "None",
         "manufacturer": "If you are searching for a Potassium Hexamethyl Disilazide manufacturer in India, you can surely trust Mahidhara chemical private limited. Potassium Hexamethyl Disilazide is a strong, non-nucleophilic base and is widely used in synthesis chemistry for pharmaceutical industry. We have more than 2 decade experience in manufacturing for the product. The end product is a light yellowish red colour slightly turbid solution and is available in 175 or 180 Kgs packs. Contact us now for more details"
+    },
+    {
+        "displayName": "Lithium Hexamethyl Disilazide",
+        "name": "Lithium Hexamethyl Disilazide (25% w/w / 1.0M in THF)",
+        "cas": "4039-32-1",
+        "molformula": "C6H18NSi2Li",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "167.33 gm/mol",
+        "synonyms": "Lithium bis(trimethylsilyl)amide, Lithium Hexamethyldisilazide, LiHMDS, LHMDS",
+        "pubchem": "2733832",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": " Light yellow to yellowish red color slight turbid solution"
+            },
+            {
+                "key": "Miscibility",
+                "value": "Miscible with most of aromatic hydrocarbons like THF & Toluene"
+            },
+            {
+                "key": "Assay % w/w (By Acidimetric titration)",
+                "value": "25% +/- 2.0% w/w (For 25% solution) 1.0M +/- 0.1M (For 1.0M solution)"
+            }
+        ],
+        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "applications": [
+            "Lithium Hexamethyl Disilazide is non-Pyrophoric base widely used in Organic Synthesis as a metalation agent.",
+            "LHS is also used in de-protonation reactions."
+        ],
+        "note": "flammable and corrosive",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest lithium HMDS manufacturer in India. Lithium Hexamethyl Disilazide is widely used in pharmaceutical industry for de-protonation. LHMDS is also used in organic synthesis as a strong non-nucleophilic base. We have more than 2 decade experience in manufacturing for the product. The end product is a light yellowish red colour slightly turbid solution and is available in 175 or 180 Kgs packs. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Trimethyl borate",
+        "name": "Trimethyl borate",
+        "cas": "121-43-7",
+        "molformula": "B(OCH3)3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "103.91 gm/mol",
+        "synonyms": "Trimethoxyborane, Methyl borate, Trimethoxyboron",
+        "pubchem": "8470",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": " Clear to light turbid, colourless liquid"
+            },
+            {
+                "key": "Moisture content by K.F",
+                "value": "Max. 0.50% w/v"
+            },
+            {
+                "key": "Assay by titrimetry (% w/w)",
+                "value": "Min. 98.0% w/w"
+            }
+        ],
+        "packing": "Packed in composite containers",
+        "applications": [
+            "Trimethyl borate is used primarily as a precursor to boronic esters and boronic acids for SUZUKI couplings.",
+            "It is also used as wood preservative",
+            "Finally it is used as raw material in making of Borophosphosilicate glass, solvent or catalyst for resins, waxes, paints and varnishes.etc.,"
+        ],
+        "note": "flammable",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Trimethyl borate manufacturer in India. Trimethyl borate is a organoboron compound which generally colourless and burns with a green flame. It is one of the very popular reagent for organic synthesis. We have more than 2 decade experience in manufacturing for the product and you can rely on the quality produced by the leading manufacturing company. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Lithium Tertiary Butoxide",
+        "name": "Lithium Tertiary Butoxide",
+        "cas": "1907-33-1",
+        "molformula": "C4H9OLi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "80.06 gm/mol",
+        "synonyms": "Lithium tert-butoxide, Lithium 2-methylpropan-2-olate, Lithium tert-butylate,tert-Butoxylithium",
+        "pubchem": "23664764",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "white to pale yellow color powder"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in Methanol"
+            },
+            {
+                "key": "Moisture Content by K.F% w/w",
+                "value": "Max 2.0% w/w"
+            },
+            {
+               "key" : "Lithium Carbonate % w/w",
+               "value" : "Max. 1.0% w/w"
+            },
+            {
+                "key": "Assay % w/w (Total alkalinity as LTB)",
+                "value": "Min. 98% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "applications": [
+            "Lithium Tertiary Butoxide is used as an Auxiliary product for Organic Synthesis"
+        ],
+        "note": "Strong Base",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Lithium tertiary butoxide manufacturer in India with over 15 years of experience. The company introduced the product back in 2006. The parent compound for this chemical product is Tert-butanol. Lithium tertiary butoxide is available in white to pale yellow colour powder. Lithium tertiary butoxide manufactured in India is widely used in pharmaceutical industry in organic synthesis as a strong base. It is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Lithium Tertiary Butoxide as per the requirement."
+    },
+    {
+        "displayName": "Butyl Magnesium Chloride",
+        "name": "Butyl Magnesium Chloride (2.0M (~ 23%)/ 20% in THF)",
+        "cas": "693-04-9",
+        "molformula": "CH3(CH2)3Mg.Cl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "116.87 gm/mol",
+        "synonyms": "Butyl magnesium chloride, n-butylmagnesium chloride, BuMgCl",
+        "pubchem": "8470",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": " Dark colour viscous liquid"
+            },
+            {
+                "key": "Assay by titrimetry (for 2M)",
+                "value": "2.0 +/- 0.2M"
+            },
+            {
+                "key": "Assay by titrimetry (for 20%)",
+                "value": "19.0 to 22.0% w/w"
+            }
+        ],
+        "packing": "Packed in MS containers in different capacities",
+        "applications": [
+            "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
+            "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
+        ],
+        "note": "flammable",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Trimethyl borate manufacturer in India. Trimethyl borate is a organoboron compound which generally colourless and burns with a green flame. It is one of the very popular reagent for organic synthesis. We have more than 2 decade experience in manufacturing for the product and you can rely on the quality produced by the leading manufacturing company. Contact Mahidhara Chemicals Private Limted team now for more details."
     }
 ]
