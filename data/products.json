@@ -99,7 +99,7 @@
             "In addition, STB can be used with butyl lithium to give “super base"
         ],
         "note": "It is flammable and moisture sensitive",
-        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for sodium tertiary butoxide in India. We uses the latest technology for the production of sodium tertiary butoxide. Sodium tertiary butoxide is used widely in the pharmaceutical industry as non-nucleophilic base. With n-Butyl lithium it can be used as the super base for various chemical reactions. The product shows similar reactivity to that of Potassium tertiary Butoxide. It is also used for deprotonation in reaction types of allylations, condensations, elimination, isomerizations and rearrangement. Our team is well equipped to handle the manufacturing and packaging of STB as per the requirement."
+        "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for sodium tertiary butoxide in India. We uses the latest technology for the production of sodium tertiary butoxide. Sodium tertiary butoxide is used widely in the pharmaceutical industry as non-nucleophilic base. With n-Butyl lithium it can be used as the super base for various chemical reactions. The product shows similar reactivity to that of Sodium tertiary Butoxide. It is also used for deprotonation in reaction types of allylations, condensations, elimination, isomerizations and rearrangement. Our team is well equipped to handle the manufacturing and packaging of STB as per the requirement."
     },
     {
         "displayName": "Sodium Hexamethyl Disilazide",
@@ -463,7 +463,193 @@
             "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
             "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
         ],
-        "note": "flammable",
-        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Trimethyl borate manufacturer in India. Trimethyl borate is a organoboron compound which generally colourless and burns with a green flame. It is one of the very popular reagent for organic synthesis. We have more than 2 decade experience in manufacturing for the product and you can rely on the quality produced by the leading manufacturing company. Contact Mahidhara Chemicals Private Limted team now for more details."
+        "note": "None",
+        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Butyl Magnesium Chloride in India. Butyl Magnesium Chloride is one of the very popular chemical for organic chemical manufacturing as well as the plastic material and the resin manufacturing. We have more than 2 decade experience in manufacturing for the product and you can rely on the quality. The product is available as dark colour viscous liquid and is readily used in various organic reactions. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Lithium Amide",
+        "name": "Lithium Amide",
+        "cas": "7782-89-0",
+        "molformula": "LiNH2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "22.96 gm/mol",
+        "synonyms": "Lithium Amide, Lithamide, Lithiumamide, Lithium amide, (Li(NH2))",
+        "pubchem": "24532",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "white to grey white color powder"
+            },
+            {
+                "key": "Assay % w/w",
+                "value": "Min. 95.0% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 15/16 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "applications": [
+            "Lithium Amide is a strong base primarily in organic synthesis. Typical reactions reported for lithium amide include aldol condensations, alkylations of heterocyclic amines, ketones and formation of cyclopropenes. Synthesis of ethynyl compounds and antihistamines.",
+            "It is also proven an effective catalyst in transesterification reactions."
+        ],
+        "note": "None",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Lithium amide manufacturer in India with over 20 years of experience in manufacturing. Lithium amide is available in white to grey white colour powder. Lithium Amide is a inorganic compound but is widely used in pharmaceutical industry in organic synthesis as a strong base. It is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Lithium Amide as per the requirement."
+    },
+    {
+        "displayName": "Benzyl Magnesium Chloride",
+        "name": "Benzyl Magnesium Chloride (2.0M (~ 29%) in THF)",
+        "cas": "6921-34-2",
+        "molformula": "C6H5(CH2)Mg.Cl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "150.89 gm/mol",
+        "synonyms": "Benzyl magnesium chloride; Magnesium, chloro(phenylmethyl)",
+        "pubchem": "2733352",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Yellow-purple or brown-Purple colour viscous liquid"
+            },
+            {
+                "key": "Assay by titrimetry (for 2M)",
+                "value": "2.0 +/- 0.2M"
+            },
+            {
+                "key": "Assay by titrimetry (for 30%)",
+                "value": "29.0 to 32.0% w/w"
+            }
+        ],
+        "packing": "Packed in MS containers in different capacities",
+        "applications": [
+            "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
+            "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
+        ],
+        "note": "None",
+        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Benzyl Magnesium Chloride in India. We have more than 2 decade experience in manufacturing for the product and you can rely on the quality. The product is available as yellow-purple or brown-purple colour viscous liquid and is readily used in various organic reactions. It is one of the popular product due to varied uses ranging coupling reactions, nucleophilic aliphatic subtraction and elimination reactions, and while reacting with other carbonyl compounds. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Sodium Hydride",
+        "name": "Sodium Hydride (65% w/w in Mineral Oil",
+        "cas": "7646-69-7",
+        "molformula": "NaH",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "24.0 gm/mol",
+        "synonyms": "Sodium hydride, Hydridosodium",
+        "pubchem": "24758",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Light gray to gray colour powder with mineral oil"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in methanol"
+            }
+            {
+                "key": "Assay % w/w (Total alkalinity as SH)",
+                "value": "65% +/- 3% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container. The material can be supplied in Toluene soluble bags on specific request",
+        "applications": [
+            "Sodium hydride is a strong base and mostly used in Alkylation and Condensation reactions.",
+            "The industrial applications of Sodium Hydride are in Pharmaceuticals, Flavor and fragrance, Agricultural Chemicals and polymerization Catalysts."
+        ],
+        "note": "Highly corrosive, pyrophoric in air",
+        "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Sodium hydride manufacturer in India with over 20 years of experience in manufacturing. Sodium hydride is available in light gray to gray colour powder. The company introduced the product back in 1997 and consistently meeting the clients requirements. Sodium hydride is a inorganic compound, a alkali metal hydride used as a strong base. It is widely used in pharmaceutical, agricultural chemicals. It is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Sodium Hydride as per the requirement."
+    },
+    {
+        "displayName": "Ethyl Magnesium Chloride",
+        "name": "Ethyl Magnesium Chloride (2.8M (~ 25%) in THF)",
+        "cas": "2386-64-3",
+        "molformula": "CH3CH2MgCl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "88.82 gm/mol",
+        "synonyms": "ethylmagnesium chloride, Chloroethylmagnesium, Magnesium chloroethyl,ethylmagnesiumchloride",
+        "pubchem": "75432",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Yellow to dark colour viscous liquid"
+            },
+            {
+                "key": "Assay by titrimetry (for 2.8M)",
+                "value": "2.7 to 3.0M"
+            },
+            {
+                "key": "Assay by titrimetry (for 25%)",
+                "value": "24.0 to 27.0% w/w"
+            }
+        ],
+        "packing": "Packed in MS containers in different capacities",
+        "applications": [
+            "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
+            "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
+        ],
+        "note": "None",
+        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Ethyl Magnesium Chloride in India. We have more than 2 decade experience in manufacturing this product and you can rely on the quality. The product is available as yellow to dark colour viscous liquid and is readily used in various organic reactions. It is one of the popular product due to varied uses ranging coupling reactions, nucleophilic aliphatic subtraction and elimination reactions, and while reacting with other carbonyl compounds. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Sodium Amide",
+        "name": "Sodium Amide",
+        "cas": "7782-92-5",
+        "molformula": "NaNH2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "39.0 gm/mol",
+        "synonyms": "Sodium amide, sodamide",
+        "pubchem": "24533",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "grey white to white color crystalline powder"
+            },
+            {
+                "key": "Solubility",
+                "value": "Soluble in methanol"
+            },
+            {
+                "key": "Peroxide Content % w/w",
+                "value": "NMT 0.20% w/w"
+            },
+            {
+                "key": "Assay % w/w",
+                "value": "NLT 98.0% w/w"
+            }
+        ],
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container. The material can be supplied in Toluene soluble bags on specific request",
+        "applications": [
+            "Sodium Amide is a useful agent in Organic synthesis for the promotion of condensation reactions, for the introduction of amino groups into a molecule and for dehydration.",
+            "It is also used in the manufacture of Sodium cyanide and Sodium Azide."
+        ],
+        "note": "None",
+        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Sodium amide in India. We have more than 2 decade experience in manufacturing this product and you can rely on the quality. The product is available as grey white to white color crystalline powder and is readily used in various organic reactions. It is one of the popular product due to varied uses; it is mainly used for condensation reactions and also for the introduction of amino groups in a molecule. Contact Mahidhara Chemicals Private Limted team now for more details."
+    },
+    {
+        "displayName": "Ethyl Magnesium Bromide",
+        "name": "Ethyl Magnesium Bromide (1.0M (~ 13%) in THF)",
+        "cas": "925-90-6",
+        "molformula": "CH3CH2MgCl",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Butyllithium-hexamer-from-xtal-3D-balls-C.png",
+        "molwt": "133.27 gm/mol",
+        "synonyms": "ethylmagnesium bromide, bromoethylmagnesium, Magnesium bromoethyl,ethylmagnesiumbromide",
+        "pubchem": "101914",
+        "specifications": [
+            {
+                "key": "Description",
+                "value": "Pale yellow to brown or dark colour viscous liquid"
+            },
+            {
+                "key": "Assay by titrimetry (for 1.0M)",
+                "value": "0.95 to 1.10M"
+            },
+            {
+                "key": "Assay by titrimetry (for 13%)",
+                "value": "13.0 to 15.0% w/w"
+            }
+        ],
+        "packing": "Packed in MS containers in different capacities",
+        "applications": [
+            "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn",
+            "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
+        ],
+        "note": "None",
+        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Ethyl Magnesium bromide in India. We have more than 2 decade experience in manufacturing this product and you can rely on the quality. The product is available as pale yellow to dark colour viscous liquid and is readily used in various organic reactions. It is one of the popular product due to varied uses ranging coupling reactions, nucleophilic aliphatic subtraction and elimination reactions, and while reacting with other carbonyl compounds. The product is referred to as Grignard reagent popularly and is used in various organic compounds synthesis. Contact Mahidhara Chemicals Private Limted team now for more details."
     }
 ]
