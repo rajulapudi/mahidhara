@@ -85,8 +85,8 @@
                 "value": "NMT 2.0% w/w"
             },
             {
-               "key" : "Sodium Carbonate Content",
-               "value" : "NMT 1.0% w/w"
+                "key": "Sodium Carbonate Content",
+                "value": "NMT 1.0% w/w"
             },
             {
                 "key": "Assay % w/w (Total alkalinity as STB)",
@@ -258,8 +258,8 @@
                 "value": "NMT 2.0% w/w"
             },
             {
-               "key" : "Sodium Carbonate Content",
-               "value" : "NMT 1.0% w/w"
+                "key": "Sodium Carbonate Content",
+                "value": "NMT 1.0% w/w"
             },
             {
                 "key": "Assay % w/w (Total alkalinity as KTB)",
@@ -420,8 +420,8 @@
                 "value": "Max 2.0% w/w"
             },
             {
-               "key" : "Lithium Carbonate % w/w",
-               "value" : "Max. 1.0% w/w"
+                "key": "Lithium Carbonate % w/w",
+                "value": "Max. 1.0% w/w"
             },
             {
                 "key": "Assay % w/w (Total alkalinity as LTB)",
@@ -541,7 +541,7 @@
             {
                 "key": "Solubility",
                 "value": "Soluble in methanol"
-            }
+            },
             {
                 "key": "Assay % w/w (Total alkalinity as SH)",
                 "value": "65% +/- 3% w/w"

@@ -20,6 +20,10 @@ router.get('/products', function (req, res, next) {
   res.render('singleProduct', { product: products[0] });
 });
 
+router.get('/contact', function (req, res, next) {
+  res.render('contactUs');
+});
+
 
 
 
