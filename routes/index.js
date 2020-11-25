@@ -3,25 +3,29 @@ var router = express.Router();
 const path = require('path')
 const sgMail = require('@sendgrid/mail');
 let products = require('../data/products.json')
+const toSeoUrl = require('../utils/seoUrl')
 require('dotenv').config()
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
 
-  res.render('index');
+  res.render('index', { products: products });
 });
 router.get('/privacy', function (req, res, next) {
   res.render('privacy');
 });
 
 
-router.get('/products', function (req, res, next) {
-  res.render('singleProduct', { product: products[0] });
+router.get('/product/:name', function (req, res, next) {
+
+  let product = products.filter((p) => p.displayUrl === req.params.name)
+  res.render('singleProduct', { product: product[0], products: products });
 });
 
 router.get('/contact', function (req, res, next) {
-  res.render('contactUs');
+  res.render('contactUs', { products: products });
 });
 
 

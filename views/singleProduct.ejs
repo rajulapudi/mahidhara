@@ -3,7 +3,7 @@
 <%- include('head'); -%>
 
 <body>
-    <%- include('header'); -%>
+    <%- include('header', {products: products}); -%>
     <main id="main">
         <section class="breadcrumbs">
             <div class="container">
@@ -63,7 +63,7 @@
         </section>
         <section>
             <div class="container" style="max-width: 900px;">
-                <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6>
+                <!-- <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6> -->
                 <table class="table">
                     <thead>
                     <tr>
@@ -96,7 +96,7 @@
             <% }) %>
         </ol>
         <p style="font-weight: 100; font-size: smaller; font-style: italic;">* <%= product.note %> </p>
-        <p style=""> <%= product.manufacturer %> </p>
+        <p> <%= product.manufacturer %> </p>
     </div>
 </section>
 <section>

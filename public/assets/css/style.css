@@ -81,7 +81,7 @@ h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: rgba(42, 44, 57, 1);
 }
 
 #header.header-scrolled {
@@ -149,7 +149,7 @@ h6 {
   display: block;
   position: absolute;
   left: 0;
-  top: calc(100% - 30px);
+  /* top: calc(100% - 30px); */
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -1641,4 +1641,31 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/* Custom CSS */
+.featureImg {
+  margin-top: 5px;
+}
+
+.featureImg img {
+  border-radius: 5px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.particles-js-canvas-el {
+  height: 100%;
 }
