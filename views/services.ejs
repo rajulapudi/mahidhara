@@ -10,9 +10,8 @@
         <div class="col-lg-4 col-md-6" style="padding-top: 10px;">
           <div class="icon-box" data-aos="zoom-in-left">
             <div class="icon"><img src="<%= prod.image %>" alt="" width="80"></div>
-            <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%- prod.displayName %> </a></h4>
+            <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a></h4>
             <p class="description">CAS # <%- prod.cas %> </p>
-            <p class="description"><%- prod.name %> </p>
           </div>
         </div>
       <% }) %>
