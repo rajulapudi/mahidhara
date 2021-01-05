@@ -102,7 +102,8 @@
 <section>
     <div class="container" style="max-width: 900px;">
         <div class="row justify-content-center">
-            <a href="<%= product.downloadLink %>" download="<%= product.displayName %>"><button type="button" class="btn btn-theme" style="margin-right: 50px;">Download Brochure</button></a><button type="button" class="btn btn-theme">Enquiry</button>
+            <p><%= product.downloadLink %></p>
+            <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button" class="btn btn-theme" style="margin-right: 50px;">Download Brochure</button></a><button type="button" class="btn btn-theme">Enquiry</button>
         </div>
     </div>
 </section>
