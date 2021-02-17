@@ -773,7 +773,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 10px 10px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -804,12 +804,12 @@ section {
 .services .title {
   margin-left: 40px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
 }
 
 .services .title a {
-  color: #2a2c39;
+  color: #ef6603;
   transition: ease-in-out 0.3s;
 }
 
@@ -1668,4 +1668,8 @@ section {
 }
 .particles-js-canvas-el {
   height: 100%;
+}
+.btn-brochure {
+  font-size: 12px;
+  color: #2a2c39 !important;
 }
