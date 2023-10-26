@@ -266,3 +266,73 @@
   });
 
 })(jQuery);
+
+
+
+
+
+// GET QUOTE Form validation code
+
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+
+    const formSubmit= document.getElementById('formSubmit')
+
+    const name=document.getElementById("validationCustom01")
+    const email=document.getElementById("validationCustom02")
+    const compoundName=document.getElementById("validationCustom03")
+    const quantity=document.getElementById("validationCustom04")
+    const address=document.getElementById("validationCustom05")
+
+
+    formSubmit.addEventListener("submit",function createForm(event){
+      event.preventDefault()
+      console.log(name.value)
+      const data={
+        name: name.value,
+        email: email.value,
+        compoundName: compoundName.value,
+        quantity:quantity.value,
+        address: address.value
+      }
+
+      fetch('http://localhost:6238/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data), 
+      })
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json(); 
+        })
+        .then(data => {
+        //  console.log(data)
+        })
+        .catch(error => {
+          console.log(error);
+        });
+
+    })
+
+
+              
