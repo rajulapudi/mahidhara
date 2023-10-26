@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('head'); -%>
+<%- include('singleHead', {products: products}); -%>
 
-<body>
+  <body>
     <%- include('header', {products: products}); -%>
-    <main id="main">
+      <main id="main">
         <section class="breadcrumbs">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <h2><%= product.displayName %> </h2>
-                    <ol>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#products">Products</a></li>
-                        <li><%= product.displayName %></li>
-                    </ol>
-                </div>
-
+          <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>
+                <%= product.displayName %>
+              </h2>
+              <ol>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#products">Products</a></li>
+                <li>
+                  <%= product.displayName %>
+                </li>
+              </ol>
             </div>
+
+          </div>
         </section>
 
         <!-- <section>
@@ -26,45 +30,48 @@
             <h5 style="text-align: center; font-weight: bold;"><%= product.name %> </h5>
             <h6 style="text-align: center; font-weight: bold;"> CAS # <%= product.cas %></h6>
         </section> -->
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="row justify-content-center">
-                            <h6>
-                                <span>
-                                    Molecular Formula :
-                                </span>
-                                <span>
-                                    <%= product.molformula %> 
-                                </span>
-                            </h6>
+
+        <!-- <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row justify-content-center">
+                                    <h6>
+                                        <span>
+                                            Molecular Formula :
+                                        </span>
+                                        <span>
+                                            <%= product.molformula %>
+                                        </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <div class="col">
+                                <div class="row justify-content-center">
+                                    <h6>
+                                        <span>
+                                            Molecular Wt :
+                                        </span>
+                                        <span>
+                                            <%= product.molwt %>
+                                        </span>
+                                    </h6>
+                                </div>
+
+                            </div>
+
                         </div>
-                        
-                      
                     </div>
-                    <div class="col">
-                        <div class="row justify-content-center">
-                            <h6>
-                                <span>
-                                    Molecular Wt :
-                                </span>
-                                <span>
-                                    <%= product.molwt %> 
-                                </span>
-                            </h6>
-                        </div>
-                       
-                    </div>
-                    
-                </div>
-            </div>
-            
-        </section>
+
+                </section> -->
+
+
         <section>
-            <div class="container" style="max-width: 900px;">
-                <!-- <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6> -->
-                <table class="table">
+          <div class="container" style="max-width: 900px;">
+            <!-- <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6> -->
+            <!-- <table class="table">
                     <thead>
                     <tr>
                        <th scope="col">Specification</th><th scope="col">Value</th>
@@ -77,53 +84,225 @@
                          </tr>
                     <% }) %>
                 </tbody>
-                 </table>
+                 </table> -->
+
+
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="detail_img"><img class="chemicalImage" src="<%= product.image %>" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 description">
+                <h2><span>
+                    <%= product.displayName %>
+                  </span></h2>
+                <h4>Chemical Name : <span>
+                    <%= product.displayName %>
+                  </span></h4>
+                <p>Synonyms : <span>
+                    <%= product.synonyms %>
+                  </span><br>CAS No. :
+                  <span>
+                    <%= product.cas %>
+                  </span><br>Molecular Formula : <span>
+                    <%= product.molformula %>
+                  </span><br>Formula weight : <span>
+                    <%= product.molwt %>
+                  </span>
+                </p>
+
+                <!-- <a class="pdf_link"
+                                        href="https://www.alkalimetals.com/uploads/product_msds/SODIUM%20AMIDE-MSDS.pdf"
+                                        target="_blank" rel="noopener">MSDS</a>
+
+
+                                    <a class="pdf_link"
+                                        href="https://www.alkalimetals.com/uploads/product_spec/SODIUM_AMIDE.pdf"
+                                        target="_blank" rel="noopener">SPECIFICATION</a>
+
+                                    <input name="id" type="hidden" value="1"> <input class="quote_link" type="submit"
+                                        value="GET QUOTE" fdprocessedid="3ntx5b"> -->
+
+
+
+                <div class="button-container">
+
+                  <a href="<%= product.downloadLink %>" download="<%= product.downloadLink %>.pdf"
+                    target="_self"><button class="buton obtn">MSDS</button></a>
+
+
+
+                  <a href="<%= product.specification %>"><button class="buton obtn">SPECIFICATION</button></a>
+
+
+
+                  <!-- Button trigger modal -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="buton gbtn" data-toggle="modal" data-target="#exampleModal">
+                    GET QUOTE
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title description" id="exampleModalLabel">
+                            <%= product.displayName %>
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+
+
+
+                          <form class="needs-validation" novalidate id="formSubmit" action="http://localhost:6238/email" method="post">
+
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value=""
+                                  placeholder=" eg. John Smith" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                              </div>
+                       
+                              <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">E-mail</label>
+                                <input type="email" class="form-control" id="validationCustom02" value=""
+                                  placeholder="example@abc.com" required>
+                              </div>
+
+                            </div>
+
+
+                            <div class="form-row">
+
+                              <div class="col-md-8 mb-3">
+                                <label for="validationCustom03">Compound Name</label>
+                                <input type="text" class="form-control" id="validationCustom03"
+                                  value="<%= product.displayName %>" required readonly>
+                              </div>
+
+                              <div class="col-md-4 mb-3">
+                                <label for="validationCustom04">Quantity (kg)</label>
+                                <input type="number" class="form-control" id="validationCustom04" min="0" step="0.100" value=""
+                                  required>
+                              </div>
+
+                            </div>
+
+
+                            <div class="form-row">
+
+                              <div class="col-md-12 mb-3">
+                                <label for="validationCustom05">Address</label>
+                                <input type="text" class="form-control" id="validationCustom05" value=""
+                                   required>
+                                <div class="invalid-feedback">
+                                  Please Enter a valid Address.
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                  Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                  You must agree before submitting.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="modal-footer">
+                              <button type="button" class="btn gbtn b-clr" data-dismiss="modal">Close</button>
+                              <button class="btn  obtn b-clr" type="submit">Submit</button>
+                            </div>
+
+                          </form>
+
+
+
+
+
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+              </div>
             </div>
-          
+
+
+          </div>
+
         </section>
-<section>
-    <div class="container" style="max-width: 900px;">
-        <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Packaging</h6>
-        <%= product.packing %> 
-    </div>
-</section>
-<section>
-    <div class="container" style="max-width: 900px;">
-        <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Applications</h6>
-        <ol>
-            <% product.applications.forEach(appl => { %>
-             <li><%= appl %> </li>
-            <% }) %>
-        </ol>
-        <p style="font-weight: 100; font-size: smaller; font-style: italic;">* <%= product.note %> </p>
-        <p> <%= product.manufacturer %> </p>
-    </div>
-</section>
-<section>
-    <div class="container" style="max-width: 900px;">
-        <div class="row justify-content-center">
-            <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button" class="btn btn-theme" style="margin-right: 50px;">Download Brochure</button></a><button type="button" class="btn btn-theme">Enquiry</button>
-        </div>
-    </div>
-</section>
-    </main>
-    <%- include('footer'); -%>
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-    <!-- <div id="preloader"></div> -->
+        <section>
+          <div class="container" style="max-width: 900px;">
+            <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Packaging</h6>
+            <%= product.packing %>
+          </div>
+        </section>
+        <section>
+          <div class="container" style="max-width: 900px;">
+            <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Applications
+            </h6>
+            <ol>
+              <% product.applications.forEach(appl=> { %>
+                <li>
+                  <%= appl %>
+                </li>
+                <% }) %>
+            </ol>
+            <p style="font-weight: 100; font-size: smaller; font-style: italic;">* <%= product.note %>
+            </p>
+            <p>
+              <%= product.manufacturer %>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="container" style="max-width: 900px;">
+            <div class="row justify-content-center">
+              <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button"
+                  class="btn btn-theme" style="margin-right: 50px;">Download
+                  Brochure</button></a><button type="button" class="btn btn-theme">Enquiry</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <%- include('footer'); -%>
+        <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+        <!-- <div id="preloader"></div> -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
 
-</body>
+  </body>
 
 </html>
