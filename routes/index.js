@@ -33,10 +33,15 @@ router.get('/contact', function (req, res, next) {
 
 router.post('/email', function (req, res, next) {
   // console.log(process.env.SENDGRID_API_KEY)
-  // console.log(req.body)
+  console.log(req.body)
   let name = req.body.name
   let email = req.body.email
-  let message = req.body.message
+  let compoundName = req.body.validationCustom03;
+  let quantity = req.body.validationCustom04;
+  let address = req.body.validationCustom05;
+
+  let message = `Name: ${name}\nEmail: ${email}\nCompound Name: ${compoundName}\nQuantity: ${quantity}\nAddress: ${address}`;
+
   const msg = {
     to: 'rajulapudip@gmail.com',
     cc: 'techpranee@gmail.com',
