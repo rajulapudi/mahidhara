@@ -1673,3 +1673,83 @@ section {
   font-size: 12px;
   color: #2a2c39 !important;
 }
+
+
+/* product cards */
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.detail_img img {
+  vertical-align: middle;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  max-height: 280px;
+  max-width: 100%;
+}
+
+.detail_img{
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.description h2 {
+  color: #ef6603;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: #ecebe9 solid 2px;
+  margin-bottom: 6px;
+}
+
+.b-clr{
+  color: white;
+}
+
+
+.buton {
+  display: inline-block;
+  margin: 0px;
+  /* height: 25px; */
+  padding: 8px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+/* .button:hover {
+  background-color: #eb6709;
+} */
+
+/* Media Query for responsive layout */
+@media (max-width: 600px) {
+  .button {
+      /* display: block; */
+      margin: 10px auto;
+  }
+}
+
+.obtn{
+  background-color: #ef6603;
+}
+
+.gbtn{
+  background-color: rgb(80, 77, 77);
+}
