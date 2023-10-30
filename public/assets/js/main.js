@@ -312,7 +312,7 @@
         address: address.value
       }
 
-      fetch('http://localhost:6238/email', {
+      fetch('https://content.techpranee.com/api/leads', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
