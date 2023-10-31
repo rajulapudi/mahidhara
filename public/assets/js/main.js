@@ -312,7 +312,7 @@
         address: address.value
       }
 
-      fetch('https://content.techpranee.com/api/leads', {
+      fetch('https://content.techpranee.com/api/leads-mahidharas', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
