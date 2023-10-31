@@ -149,7 +149,6 @@ h6 {
   display: block;
   position: absolute;
   left: 0;
-  /* top: calc(100% - 30px); */
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -159,6 +158,8 @@ h6 {
   transition: ease all 0.3s;
   border-radius: 15px;
   margin-top: 5px;
+  max-height: 100vh; /* Set a maximum height for the dropdown */
+  overflow-y: auto;  /* Add a vertical scrollbar when the content overflows */
 }
 
 .nav-menu .drop-down:hover > ul {
@@ -799,10 +800,11 @@ section {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
+  margin-left: 20px;
 }
 
 .services .title {
-  margin-left: 40px;
+  margin-left: 65px;
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
@@ -819,7 +821,7 @@ section {
 
 .services .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 65px;
   line-height: 24px;
   margin-bottom: 0;
 }
