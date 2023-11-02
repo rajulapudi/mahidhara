@@ -19,10 +19,9 @@
                 "value": "Min. 90% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere.14/15 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 15nos of such packets are packed under nitrogen blanket into a ring lock MS/HDPE container with top lid removable.",
         "applications": [
-            "Magnesium Tertiary Butoxide is used as an Auxiliary product for Organic Synthesis",
-            "It is used used as a raw material for the manufacture of Retroviral Drugs."
+            "Used as an Auxiliary product for Organic Synthesis, used as a raw material for the Manufacture of Anti retroviral Drugs."
         ],
         "note": "None",
         "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest magnesium tertiary butoxide manufacturer in India. The company introduced the product back in 2008. We take pride in introducing and developing the technology to manufacture “Magnesium Tertiary Butoxide” for the first time in the Country. The parent compound for this chemical product is Tert-butanol. Magnesium tertiary butoxide is available in white to pale yellow colour powder. Magnesium tertiary butoxide chemical is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Magnesium Tertiary Butoxide as per the requirement.",
@@ -31,7 +30,7 @@
         "metaKeyword" : "magnesium tert-butoxide manufacturers in india, magnesium tert-butoxide structure, magnesium tert-butoxide cas no, magnesium tert-butoxide suppliers in India",
         "metaDescription" : "Mahidhara Chemicals Private Ltd is the leading magnesium tert-butoxide manufacturer in India and supplies magnesium t-butoxide all over India.",
         "metaTitle" : "magnesium tert-butoxide manufacturers in India: Mahidhara Chemicals ",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Sodium Hydride",
@@ -56,10 +55,9 @@
                 "value": "65% +/- 3% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container. The material can be supplied in Toluene soluble bags on specific request",
+        "packing": "5 Kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container with top lid removable. The material can be supplied in Toluene soluble bags on specific request.",
         "applications": [
-            "Sodium hydride is a strong base and mostly used in Alkylation and Condensation reactions.",
-            "The industrial applications of Sodium Hydride are in Pharmaceuticals, Flavor and fragrance, Agricultural Chemicals and polymerization Catalysts."
+            "Sodium Hydride is a strong base and mostly used in Alkylation and Condensation reactions. The industrial applications of Sodium Hydride are in Pharmaceuticals, Flavour and fragrance, Agricultural Chemicals and polymerization Catalysts"
         ],
         "note": "Highly corrosive, pyrophoric in air",
         "manufacturer": "We at Mahidhara Chemicals Private Limited are one of the largest Sodium hydride manufacturer in India with over 20 years of experience in manufacturing. Sodium hydride is available in light gray to gray colour powder. The company introduced the product back in 1997 and consistently meeting the clients requirements. Sodium hydride is a inorganic compound, a alkali metal hydride used as a strong base. It is widely used in pharmaceutical, agricultural chemicals. It is available in a packaging of 5 kgs. Our team is well equipped to handle the manufacturing and packaging of Sodium Hydride as per the requirement.",
@@ -68,14 +66,14 @@
         "metaKeyword" : "Sodium Hydride Manufracturer in India, sodium hydride molecular weight, sodium hydride cas number",
         "metaDescription" : "Mahidhara chemicals private limited is the leading manufacturer for Sodium Hydride Manufracturer in India and supply products all over India",
         "metaTitle" : "Sodium Hydride Manufacturer in India:Mahidhara chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Sodium Amide",
         "name": "Sodium Amide",
         "cas": "7782-92-5",
         "molformula": "NaNH2",
-        "image": "/assets/img/prodimg/Sodium_amide.png",
+        "image": "/assets/img/prodimg/sodium-amide.png",
         "molwt": "39.0 gm/mol",
         "synonyms": "Sodium amide, sodamide",
         "pubchem": "24533",
@@ -97,10 +95,9 @@
                 "value": "NLT 98.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container. The material can be supplied in Toluene soluble bags on specific request",
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 25nos of such packets are packed under nitrogen blanket into a 200Ltrs capacity ring lock steel container with top lid removable. The material can be supplied in Toluene soluble bags on specific request.",
         "applications": [
-            "Sodium Amide is a useful agent in Organic synthesis for the promotion of condensation reactions, for the introduction of amino groups into a molecule and for dehydration.",
-            "It is also used in the manufacture of Sodium cyanide and Sodium Azide."
+            "Sodium Amide is a useful agent in Organic synthesis for the promotion of condensation reactions, for the introduction of amino groups into a molecule and for dehydration. It is also used in the manufacture of Sodium cyanide and Sodium Azide"
         ],
         "note": "None",
         "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturer of Sodium amide in India. We have more than 2 decade experience in manufacturing this product and you can rely on the quality. The product is available as grey white to white color crystalline powder and is readily used in various organic reactions. It is one of the popular product due to varied uses; it is mainly used for condensation reactions and also for the introduction of amino groups in a molecule. Contact Mahidhara Chemicals Private Limted team now for more details.",
@@ -109,14 +106,14 @@
         "metaKeyword" : "Sodium Amide manufactures in india, sodium amide uses, sodium amide uses",
         "metaDescription" : "Mahidhara chemicals private limited is the leading manufacturer for Sodium Amide manufactures in india and supply products all over India",
         "metaTitle" : "Sodium Amide manufactures in india:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "n-butyl Lithium",
+        "displayName": "n-butyl Lithium (in Hexanes)",
         "name": "n-butyl Lithium (15% / 23% w/w in Hexane)",
         "cas": "109-72-8",
         "molformula": "C4H9Li",
-        "image": "/assets/img/prodimg/n_butyl_lithium.png",
+        "image": "/assets/img/prodimg/n-butyl-lithium.png",
         "molwt": "64.06 gm/mol",
         "synonyms": "N-butyllithium, Butyl lithium, 1-lithiobutane, NBL, BuLi",
         "pubchem": "61028",
@@ -140,9 +137,9 @@
         ],
         "packing": "274 kgs of net material (as 15%) / 270 kgs of net material (as 23%) packed in 450 Ltrs capacity steel containers under nitrogen/argon atmosphere.",
         "applications": [
-            "n-Butyl Lithium is a highly versatile reagent in organic synthesis, especially in the synthesis of pharmaceutical intermediates",
-            "It is used as an initiator in the anionic polymerization of conjugated dienes like butadiene, isoprene and vinyl aromatic compounds like styrene to produce wide variety of useful rubber and plastic goods.",
-            "n-Butyl Lithium is used in organic synthesis as a butylating agent (addition and in halogen-metal and hydrogen-metal exchange reactions (Metalations or Lithiations)"
+            "n-Butyl Lithium is used as an initiator in the anionic polymerization of conjugated dienes like butadiene, isoprene and vinyl aromatic compounds like styrene to produce wide variety of useful rubber and plastic goods",
+            " n-Butyl Lithium is a highly versatile reagent in organic synthesis, especially in the synthesis of pharmaceutical intermediates",
+            " n-Butyl Lithium is used in organic synthesis as a butylating agent (addition and in halogen-metal and hydrogen-metal exchange reactions (Metalations or Lithiations). For more information contact mfrs."
         ],
         "note": "Alkyl-lithium compounds are stored under inert gas for safety reasons and alsoto prevent loss of activity",
         "manufacturer": "Mahidhara chemicals private limited is the leading manufacturer for n-butyl lithium in India. n-Butyllithium (abbreviated n-BuLi) is an organolithium reagent and wide range of uses in the pharmaceutical industry. Our team is well equipped to handle the manufacturing and packaging of n-BuLi as per the requirement.",
@@ -151,11 +148,11 @@
         "metaKeyword" : "n-butyllithium manufacturers in india, n-butyl lithium cas no, n-butyllithium structure, n-butyllithium suppliers in India",
         "metaDescription" : "Mahidhara Chemicals Private Ltd is the leading n-butyl lithium manufacturer in India and supplies various organometallic products all over India",
         "metaTitle" : "n-butyllithium manufacturers in india:Mahidhara Chemicals private Ltd",
-        "specification" : ""
+        "msds" : ""
 
     }, 
     {
-        "displayName": "Sodium Hexamethyl Disilazide",
+        "displayName": "Sodium Hexamethyl Disilazide (in THF)",
         "name": "Sodium Hexamethyl Disilazide (20% / 40% / 1.0M / 2.0M in THF)",
         "cas": "1070-89-9",
         "molformula": "C6H18NSi2Na",
@@ -177,7 +174,7 @@
                 "value": "For 20% solution : 20% +/- 2% w/w \n For 40% solution : 40% +/- 2% w/w \n For 1.0M solution : 1.0 +/- 0.1M \n For 2.0M solution : 2.0 +/- 0.1M"
             }
         ],
-        "packing": "175/180 kgs net material packed in 200 Ltrs capacity M.S/HDPE Drum under nitrogen blanket",
+        "packing": "175/180 kgs net material packed in 200 Ltrs capacity M.S/HDPE Drum under nitrogen blanket or as per customer requirement.",
         "applications": [
             "Sodium Hexamethyl Disilazide widely used as metalation agent in Organic Synthesis"
         ],
@@ -188,11 +185,11 @@
         "metaKeyword" : "Sodium Hexamethyl Disilazide manufactures, Sodium Hexamethyl Disilazide, sodium hexamethyl disilazide cas no",
         "metaDescription" : "Mahidhara Chemicals private limited is the leading manufacturer for sodium tert butoxide manufacturers in India and supply various products all over in India",
         "metaTitle" : "Sodium Hexamethyl Disilazide manufactures:Mahidhara Chemicals private Ltd",
-        "specification" : ""
+        "msds" : ""
     },
     
     {
-        "displayName": "Lithium Hexamethyl Disilazide",
+        "displayName": "Lithium Hexamethyl Disilazide (in THF)",
         "name": "Lithium Hexamethyl Disilazide (25% w/w / 1.0M in THF)",
         "cas": "4039-32-1",
         "molformula": "C6H18NSi2Li",
@@ -214,7 +211,7 @@
                 "value": "25% +/- 2.0% w/w (For 25% solution) 1.0M +/- 0.1M (For 1.0M solution)"
             }
         ],
-        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "packing": "175/180 kgs net material packed in 200Ltrs capacity M.S/HDPE Drum under nitrogen blanket.",
         "applications": [
             "Lithium Hexamethyl Disilazide is non-Pyrophoric base widely used in Organic Synthesis as a metalation agent.",
             "LHS is also used in de-protonation reactions."
@@ -226,10 +223,10 @@
         "metaKeyword" : "Lithium HMDS manufacturer in India, Lithium HMDS suppliers in India, Lithium HMDS (20%/25%) solution in THF, lithium hmds cas no",
         "metaDescription" : "Mahidhara chemicals private limited is the leading manufacturer for Lithium HMDS manufacturer in India and supply products all over in India",
         "metaTitle" : "Lithium HMDS manufacturer in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Potassium Hexamethyl Disilazide",
+        "displayName": "Potassium Hexamethyl Disilazide (in THF)",
         "name": "Potassium Hexamethyl Disilazide (25% w/w in THF)",
         "cas": "40949-94-8",
         "molformula": "C6H18NSi2K",
@@ -262,7 +259,7 @@
         "metaKeyword" : "potassium hmds manufacturer in india, potassium hmds cas no, potassium hmds supplers in india",
         "metaDescription" : "Mahidhara chemicals private limited is the leading for potassium hmds manufacturer in india and supply products all over in India",
         "metaTitle" : "potassium hmds manufacturer in India:Mahidhara chemicals PVT ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Magnesiun Methoxide",
@@ -299,10 +296,10 @@
         "metaKeyword" : "magnesium methoxide,manufacturer in india, magnesium methoxide suppliers in india,Magnesium Methoxide (10%-14%) in Methanol ",
         "metaDescription" : "Mahidhara chemicals private limited is the leading for magnesium methoxide manufacturer in india and supply various products all over in India",
         "metaTitle" : "magnesium methoxide manufacturer in india:Mahidhara chemicals Pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Magnesiun Methoxide Solution",
+        "displayName": "Magnesiun Methoxide (in Methanol)",
         "name": "Magnesiun Methoxide solution 10 - 14% in Methanol",
         "cas": "109-88-6",
         "molformula": "(CH3)2OMg ",
@@ -340,7 +337,7 @@
         "metaKeyword" : "magnesium methoxide,manufacturer in india, magnesium methoxide suppliers in india,Magnesium Methoxide (10%-14%) in Methanol ",
         "metaDescription" : "Mahidhara chemicals private limited is the leading for magnesium methoxide manufacturer in india and supply various products all over in India",
         "metaTitle" : "magnesium methoxide manufacturer in india:Mahidhara chemicals Pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     
     
@@ -375,7 +372,7 @@
                 "value": "Min. 98% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "packing": "5kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20nos of such packets are packed under nitrogen blanket into a 200Ltrs capacity ring lock steel container with top lid removable",
         "applications": [
             "Lithium Tertiary Butoxide is used as an Auxiliary product for Organic Synthesis"
         ],
@@ -386,10 +383,10 @@
         "metaKeyword" : "lithium tert-butoxide manufacturers in india, lithium tert-butoxide suppliers in india, lithium tert-butoxide solution in thf, Lithium Tertiary Butoxide (1M/2M) solution in THF",
         "metaDescription" : "Mahidhara chemicals private limited is leading for lithium tert-butoxide manufacturers in india and supply various METAL ALKOXIDES products all over in India",
         "metaTitle" : "lithium tert-butoxide manufacturers in India:Mahidhara Chemicals pvt ",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Lithium Tertiary Butoxide Solution",
+        "displayName": "Lithium Tertiary Butoxide Solution (in THF)",
         "name": "Lithium Tertiary Butoxide 1M/2M Solution in THF",
         "cas": "1907-33-1",
         "molformula": "C4H9OLi",
@@ -419,7 +416,7 @@
                 "value": "Min. 98% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "packing": "Material packed in narrow mouth opening M.S/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Lithium Tertiary Butoxide is used as an Auxiliary product for Organic Synthesis"
         ],
@@ -430,10 +427,10 @@
         "metaKeyword" : "lithium tert-butoxide manufacturers in india, lithium tert-butoxide suppliers in india, lithium tert-butoxide solution in thf, Lithium Tertiary Butoxide (1M/2M) solution in THF",
         "metaDescription" : "Mahidhara chemicals private limited is leading for lithium tert-butoxide manufacturers in india and supply various METAL ALKOXIDES products all over in India",
         "metaTitle" : "lithium tert-butoxide manufacturers in India:Mahidhara Chemicals pvt ",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Lithium Methoxide Solution",
+        "displayName": "Lithium Methoxide (in Methanol)",
         "name": "Lithium Methoxide (10% w/w in Methanol)",
         "cas": "865-34-9",
         "molformula": "CH3OLi",
@@ -455,7 +452,7 @@
                 "value": "10 +/- 1% w/w"
             }
         ],
-        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "packing": "Material packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Lithium Methoxide is used as an auxiliary product for organic synthesis."
         ],
@@ -466,7 +463,7 @@
         "metaKeyword" : "lithium methoxide manufacturers in india, lithium methoxide suppliers in india,lithium methoxide cas no, Lithium Methoxide (10.0%) in Methanol",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for lithium Methoxide  manufacturers in India  and supply varius Metal Alkoxides products all over in India",
         "metaTitle" : "lithium methoxide manufacturers in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     
     {
@@ -500,7 +497,7 @@
                 "value": "Min 99.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20/25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container",
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20/25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container with top lid removable.",
         "applications": [
             "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation, arylation, condensations, isomerizations, rearrangements and Witting reactions.",
             "In addition, STB can be used with butyl lithium to give “super base"
@@ -512,10 +509,10 @@
         "metaKeyword" : "potassium tert-butoxide manufacturers in india, Potassium Tertiary Butoxide (20%) in THF, Potassium Tertiary Butoxide (15%) in t-Butanol ",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for potassium tert-butoxide manufacturers in india and various Metal Alkoxides products in India",
         "metaTitle" : "potassium tert-butoxide manufacturers in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Potassium Tertiary Butoxide (THF)",
+        "displayName": "Potassium Tertiary Butoxide Solution (in THF)",
         "name": "Potassium Tertiary Butoxide 20% in THF",
         "cas": "865-47-4",
         "molformula": "C4H9OK",
@@ -545,7 +542,7 @@
                 "value": "Min 99.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20/25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container",
+        "packing": "Material packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation, arylation, condensations, isomerizations, rearrangements and Witting reactions.",
             "In addition, STB can be used with butyl lithium to give “super base"
@@ -557,10 +554,10 @@
         "metaKeyword" : "potassium tert-butoxide manufacturers in india, Potassium Tertiary Butoxide (20%) in THF, Potassium Tertiary Butoxide (15%) in t-Butanol ",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for potassium tert-butoxide manufacturers in india and various Metal Alkoxides products in India",
         "metaTitle" : "potassium tert-butoxide manufacturers in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Potassium Tertiary Butoxide (in t-Butanol)",
+        "displayName": "Potassium Tertiary Butoxide Solution (in t-Butanol)",
         "name": "Potassium Tertiary Butoxide 15% in t-Butanol",
         "cas": "865-47-4",
         "molformula": "C4H9OK",
@@ -590,7 +587,7 @@
                 "value": "Min 99.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20/25 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container",
+        "packing": "Material packed in narrow mouth opening M.S/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation, arylation, condensations, isomerizations, rearrangements and Witting reactions.",
             "In addition, STB can be used with butyl lithium to give “super base"
@@ -602,7 +599,7 @@
         "metaKeyword" : "potassium tert-butoxide manufacturers in india, Potassium Tertiary Butoxide (20%) in THF, Potassium Tertiary Butoxide (15%) in t-Butanol ",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for potassium tert-butoxide manufacturers in india and various Metal Alkoxides products in India",
         "metaTitle" : "potassium tert-butoxide manufacturers in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Sodium Tertiary Butoxide",
@@ -635,9 +632,9 @@
                 "value": "Min 98.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 2000 Ltrs capacity ring lock steel container",
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20nos of such packets are packed under nitrogen blanket into a 200Ltrs capacity ring lock steel container with top lid removable.",
         "applications": [
-            "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation’s, condensations, elimination, isomerizations and rearrangement.",
+            "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation’s, condensations, elimination,isomerizations and rearrangement",
             "In addition, STB can be used with butyl lithium to give “super base"
         ],
         "note": "It is flammable and moisture sensitive",
@@ -647,10 +644,10 @@
         "metaKeyword" : "sodium tert butoxide manufacturer, sodium tertiary butoxide cas no, sodium tertiary butoxide, sodium tertiary butoxide suppliers in India",
         "metaDescription" : "Mahidhara Chemicals private limited is the leading manufacturer for sodium tert butoxide manufacturers in India and supply various products all over India",
         "metaTitle" : "sodium tert butoxide manufacturers:Mahidhara Chemicals private Ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Sodium Isopropoxide (IPA)",
+        "displayName": "Sodium Isopropoxide (in IPA)",
         "name": "Sodium Isopropoxide (12% w/w in IPA)",
         "cas": "683-60-3",
         "molformula": "C3H7ONa",
@@ -672,7 +669,7 @@
                 "value": "12% to 14% w/w in IPA"
             }
         ],
-        "packing": "5kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 4/5 nos of such packets are packed in 40/50 Ltrs capacity M.S/HDPE drum under nitrogen blanket",
+        "packing": "5kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 4/5nos of such packets are packed in 40/50 Ltrs capacity MS/HDPE drum under nitrogen blanket.",
         "applications": [
             "Sodium Isopropoxide is used as an auxiliary product for organic synthesis"
         ],
@@ -683,10 +680,10 @@
         "metaKeyword" : "sodium isopropoxide manufacturers in india, sodium isopropoxide cas no, sodium isopropoxide structure",
         "metaDescription" : "Mahidhara chemicals private limited is the leading manufacturer for Sodium Isopropoxide manufracturers in India and supply various products all over India",
         "metaTitle" : "sodium isopropoxide manufacturers in india: Mahidhara chemicals",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Methyl Magnesium Chloride Solution",
+        "displayName": "Methyl Magnesium Chloride Solution (in THF)",
         "name": "Methyl Magnesium Chloride 22% (3.0M) Solution in THF",
         "cas": "676-58-4",
         "molformula": "CH3MgCl",
@@ -719,10 +716,10 @@
         "metaKeyword" : "methyl magnesium chloride,manufacturers in India, Methyl Magnesium Chloride (3.0 Molar) solution in THF, methylmagnesium chloride cas no",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for methyl magnesium chloride manufacturers in India and various Metal Alkoxides products in India",
         "metaTitle" : "methyl magnesium chloride manufacturers in India:Mahidhara Chemicals ",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Benzyl Magnesium Chloride",
+        "displayName": "Benzyl Magnesium Chloride (in THF)",
         "name": "Benzyl Magnesium Chloride (2.0M (~ 29%) in THF)",
         "cas": "6921-34-2",
         "molformula": "C6H5(CH2)Mg.Cl",
@@ -744,7 +741,7 @@
                 "value": "29.0 to 32.0% w/w"
             }
         ],
-        "packing": "Packed in MS containers in different capacities",
+        "packing": "Packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
             "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
@@ -756,10 +753,10 @@
         "metaKeyword" : "benzyl magnesium chloride manufacturers in india, benzyl magnesium chloride cas no, benzyl magnesium chloride suppliers in india, benzyl magnesium chloride suppliers in india",
         "metaDescription" : "Mahidhara Chemicals privated limited is leading for benzyl magnesium chloride manufacturers in india and various metal Alkoxides products in india",
         "metaTitle" : "benzyl magnesium chloride manufacturers in india: Mahidhara Chemicals",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "n-Butyl Magnesium Chloride",
+        "displayName": "n-Butyl Magnesium Chloride Solution (in THF)",
         "name": "n-Butyl Magnesium Chloride (24%/2M) solution in THF",
         "cas": "693-04-9",
         "molformula": "CH3(CH2)3Mg.Cl",
@@ -781,7 +778,7 @@
                 "value": "19.0 to 22.0% w/w"
             }
         ],
-        "packing": "Packed in MS containers in different capacities",
+        "packing": "Packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
             "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
@@ -793,10 +790,10 @@
         "metaKeyword" : "n butyl magnesium chloride 2 4 / 2m solution in thf manufacturers in india, n-Butyl Magnesium Chloride (24%/2M) solution in THF, n-Butyl Magnesium Chloride (24%/2M) solution in THF cas no",
         "metaDescription" : "Mahidhara chemicals private limited is leading for n butyl magnesium chloride 2 4 / 2m solution in thf manufacturers in India",
         "metaTitle" : "n butyl magnesium chloride 2 4 / 2m solution in thf manufacturers in india",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Phenyl Magnesium Chloride Solution",
+        "displayName": "Phenyl Magnesium Chloride Solution (in THF)",
         "name": "Phenyl Magnesium Chloride 1.5M / 25% Solution in THF",
         "cas": "100-59-4",
         "molformula": "C6H5MgCl ",
@@ -829,7 +826,7 @@
         "metaKeyword" : "phenyl magnesium chloride manufacturers in india, Phenyl Magnesium Chloride (1.5M) solution in THF, phenyl magnesium chloride suppliers in india, phenyl magnesium chloride cas no",
         "metaDescription" : "Mahidhara chemicals private limited is leading for phenyl magnesium chloride manufacturers in india and supply various GRIGNARD REAGENTS products.",
         "metaTitle" : "phenyl magnesium chloride manufacturers in india:mahidhara chemicals",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Ethyl Magnesium Bromide",
@@ -854,7 +851,7 @@
                 "value": "13.0 to 15.0% w/w"
             }
         ],
-        "packing": "Packed in MS containers in different capacities",
+        "packing": "Packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn",
             "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
@@ -866,7 +863,7 @@
         "metaKeyword" : "ethyl magnesium bromide manufacturers in india, Ethyl Magnesium Bromide (1.0M) solution in THF, ethyl magnesium bromide cas no, ethyl magnesium bromide suppliers in india",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for ethyl magnesium bromide manufacturers in india and supply various GRIGNARD REAGENTS products.",
         "metaTitle" : "ethyl magnesium bromide manufacturers in india:Mahidhara chemicals",
-        "specification" : ""
+        "msds" : ""
     },
 
    {
@@ -921,7 +918,7 @@
         "metaKeyword" : "n butyl chloride manufacturers in india, n-butyl chloride molecular weight, n butyl chloride",
         "metaDescription" : "Mahidhara Chemicals private limited is the leading manufacturer for n butyl chloride manufacturers in india and supply various products all over india",
         "metaTitle" : "n butyl chloride manufacturers in india:Mahidhara Chemicals",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Lithium Methoxide",
@@ -946,7 +943,7 @@
                 "value": "10 +/- 1% w/w"
             }
         ],
-        "packing": "175/180 Ltrs of net material packed in 210 Liters capacity M.S/HDPE Drum under nitrogen blanket",
+        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20nos of such packets are packed under nitrogen blanket into a 200Ltrs capacity ring lock steel container with top lid removable.",
         "applications": [
             "Lithium Methoxide is used as an auxiliary product for organic synthesis."
         ],
@@ -957,14 +954,14 @@
         "metaKeyword" : "lithium methoxide manufacturers in india, lithium methoxide suppliers in india,lithium methoxide cas no, Lithium Methoxide (10.0%) in Methanol",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for lithium Methoxide  manufacturers in India  and supply varius Metal Alkoxides products all over in India",
         "metaTitle" : "lithium methoxide manufacturers in India:Mahidhara Chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
         "displayName": "Lithium Amide",
         "name": "Lithium Amide",
         "cas": "7782-89-0",
         "molformula": "LiNH2",
-        "image": "/assets/img/prodimg/Lithium_amide.png",
+        "image": "/assets/img/prodimg/lithium-amide.png",
         "molwt": "22.96 gm/mol",
         "synonyms": "Lithium Amide, Lithamide, Lithiumamide, Lithium amide, (Li(NH2))",
         "pubchem": "24532",
@@ -978,7 +975,7 @@
                 "value": "Min. 95.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 15/16 nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container.",
+        "packing": "5Kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 15/16nos of such packets are packed under nitrogen blanket into a 200 Ltrs capacity ring lock steel container with top lid removable.",
         "applications": [
             "Lithium Amide is a strong base primarily in organic synthesis. Typical reactions reported for lithium amide include aldol condensations, alkylations of heterocyclic amines, ketones and formation of cyclopropenes. Synthesis of ethynyl compounds and antihistamines.",
             "It is also proven an effective catalyst in transesterification reactions."
@@ -990,11 +987,11 @@
         "metaKeyword" : "lithium amide manufacturer in india, lithium amide suppliers in india, lithium amide cas no",
         "metaDescription" : "Mahidhara Chemical private limited is leading for lithium amide manufacturer in india and supply various products all over in India",
         "metaTitle" : "lithium amide manufacturer in india:Mahidhara chemicals pvt ltd",
-        "specification" : ""
+        "msds" : ""
     },
     
     {
-        "displayName": "Sodium Tertiary Butoxide (In THF)",
+        "displayName": "Sodium Tertiary Butoxide Solution (in THF)",
         "name": "Sodium Tertiary Butoxide 20% in THF",
         "cas": "865-48-5",
         "molformula": "C4H9ONa",
@@ -1024,7 +1021,7 @@
                 "value": "Min 98.0% w/w"
             }
         ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 20 nos of such packets are packed under nitrogen blanket into a 2000 Ltrs capacity ring lock steel container",
+        "packing": "Material packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Sodium Tertiary Butoxide is used for deprotonation in the reaction types of alkylation’s, condensations, elimination, isomerizations and rearrangement.",
             "In addition, STB can be used with butyl lithium to give “super base"
@@ -1036,10 +1033,10 @@
         "metaKeyword" : "sodium tert butoxide manufacturer, sodium tertiary butoxide cas no, sodium tertiary butoxide, sodium tertiary butoxide suppliers in India",
         "metaDescription" : "Mahidhara Chemicals private limited is the leading manufacturer for sodium tert butoxide manufacturers in India and supply various products all over India",
         "metaTitle" : "sodium tert butoxide manufacturers:Mahidhara Chemicals private Ltd",
-        "specification" : ""
+        "msds" : ""
     },
     {
-        "displayName": "Sodium Isopropoxide (THF)",
+        "displayName": "Sodium Isopropoxide Solution (in THF)",
         "name": "Sodium Isopropoxide (20% in THF)",
         "cas": "683-60-3",
         "molformula": "C3H7ONa",
@@ -1061,7 +1058,7 @@
                 "value": "20% in THF"
             }
         ],
-        "packing": "5kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 4/5 nos of such packets are packed in 40/50 Ltrs capacity M.S/HDPE drum under nitrogen blanket",
+        "packing": "Material packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere.",
         "applications": [
             "Sodium Isopropoxide is used as an auxiliary product for organic synthesis"
         ],
@@ -1072,11 +1069,11 @@
         "metaKeyword" : "sodium isopropoxide manufacturers in india, sodium isopropoxide cas no, sodium isopropoxide structure",
         "metaDescription" : "Mahidhara chemicals private limited is the leading manufacturer for Sodium Isopropoxide manufracturers in India and supply various products all over India",
         "metaTitle" : "sodium isopropoxide manufacturers in india: Mahidhara chemicals",
-        "specification" : ""
+        "msds" : ""
     },
 
     {
-        "displayName": "Ethyl Magnesium Chloride",
+        "displayName": "Ethyl Magnesium Chloride Solution (in THF)",
         "name": "Ethyl Magnesium Chloride (2.8M (~ 25%) in THF)",
         "cas": "2386-64-3",
         "molformula": "CH3CH2MgCl",
@@ -1098,7 +1095,7 @@
                 "value": "24.0 to 27.0% w/w"
             }
         ],
-        "packing": "Packed in MS containers in different capacities",
+        "packing": "Packed in narrow mouth opening MS/HDPE Drums under nitrogen atmosphere",
         "applications": [
             "It is used and reacts with carbonyl compounds, reacts with other electrophiles formation of bonds to B,Si,P and sn,",
             "It is also used to participate in carbon-carbon coupling reactions, nucleophillic aliphatic substraction and elimination reations etc.,"
@@ -1110,6 +1107,7 @@
         "metaKeyword" : "ethyl magnesium chloride (2.0m/20 ) solution in thf manufacturers, ethyl magnesium chloride (2.0m/20 ) solution in thf solution, Ethyl Magnesium Chloride (2.0M/20%) solution in THF, ethyl magnesium chloride cas no",
         "metaDescription" : "Mahidhara Chemicals private limited is leading for ethyl magnesium chloride (2.0m/20 ) solution in thf manufacturers in India",
         "metaTitle" : "ethyl magnesium chloride (2.0m/20 ) solution in thf manufacturers",
-        "specification" : ""
+        "msds" : ""
     }   
+    
 ]
