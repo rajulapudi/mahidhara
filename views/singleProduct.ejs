@@ -19,7 +19,6 @@
                 </li>
               </ol>
             </div>
-
           </div>
         </section>
 
@@ -67,9 +66,8 @@
 
                 </section> -->
 
-
         <section>
-          <div class="container" style="max-width: 900px;">
+          <div class="container" style="max-width: 900px">
             <!-- <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Specifications</h6> -->
             <!-- <table class="table">
                     <thead>
@@ -86,10 +84,10 @@
                 </tbody>
                  </table> -->
 
-
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6">
-                <div class="detail_img"><img class="chemicalImage" src="<%= product.image %>" alt="">
+                <div class="detail_img">
+                  <img class="chemicalImage" src="<%= product.image %>" alt />
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-6 description">
@@ -99,14 +97,17 @@
                 <h4>Chemical Name : <span>
                     <%= product.displayName %>
                   </span></h4>
-                <p>Synonyms : <span>
+                <p>
+                  Synonyms : <span>
                     <%= product.synonyms %>
-                  </span><br>CAS No. :
+                  </span><br />CAS No. :
                   <span>
                     <%= product.cas %>
-                  </span><br>Molecular Formula : <span>
+                  </span><br />Molecular Formula :
+                  <span>
                     <%= product.molformula %>
-                  </span><br>Formula weight : <span>
+                  </span><br />Formula weight :
+                  <span>
                     <%= product.molwt %>
                   </span>
                 </p>
@@ -123,18 +124,69 @@
                                     <input name="id" type="hidden" value="1"> <input class="quote_link" type="submit"
                                         value="GET QUOTE" fdprocessedid="3ntx5b"> -->
 
-
-
                 <div class="button-container">
+                  <button type="button" class="buton obtn" data-toggle="modal" data-target="#exampleModal1">
+                    MSDS
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title description" id="exampleModalLabe2">
+                            Request MSDS
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="needs-validation" novalidate id="msdsForm"
+                            action="https://content.techpranee.com/api/leads-mahidharas" method="post">
+                            <div class="form-row">
+                              <div class="col-md-9 mb-3">
+                                <input type="email" class="form-control" value placeholder="Email" id="msdsEmail" name="email"
+                                  required />
+                                <div class="valid-feedback">Looks good!</div>
+                              </div>
+
+                              <div>
+                                <input type="hidden" name="name" id="msdsName" value="null" />
+
+                                <input type="hidden" name="product" value="<%= product.displayName %>" id="msdsProduct" />
+
+                                <input type="hidden" name="qty" id="msdsQuantity" value="null" />
+
+                                <input type="hidden" name="phone" id="msdsPhone" value="null" />
+
+                                <input type="hidden" name="address" id="msdsAddress" value="null" />
+                               
+                                <input type="hidden" 
+                                name="msg" id="msdsMsg" value="Requesting MSDS." />
+
+                              </div>
+
+                              <div class="col-md-3 mb-3">
+                                <button class="btn obtn b-clr" type="submit">
+                                  Submit
+                                </button>
+                              </div>
+                            </div>
+
+                            <!-- <div class="modal-footer">
+                            <button type="button" class="btn gbtn b-clr"
+                              data-dismiss="modal">Close</button>
+                          </div> -->
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <a href="<%= product.downloadLink %>" download="<%= product.downloadLink %>.pdf"
-                    target="_self"><button class="buton obtn">MSDS</button></a>
-
-
-
-                  <a href="<%= product.specification %>"><button class="buton obtn">SPECIFICATION</button></a>
-
-
+                    target="_self"><button class="buton obtn">SPECIFICATION</button></a>
 
                   <!-- Button trigger modal -->
                   <!-- Button trigger modal -->
@@ -156,63 +208,60 @@
                           </button>
                         </div>
                         <div class="modal-body">
-
-
-
-                          <form class="needs-validation" novalidate id="formSubmit" action="http://localhost:6238/email" method="post">
-
+                          <form class="needs-validation" novalidate id="formSubmit"
+                            action="https://content.techpranee.com/api/leads-mahidharas" method="post">
                             <div class="form-row">
                               <div class="col-md-6 mb-3">
                                 <label for="validationCustom01">Name</label>
-                                <input type="text" class="form-control" id="validationCustom01" value=""
-                                  placeholder=" eg. John Smith" required>
-                                <div class="valid-feedback">
-                                  Looks good!
-                                </div>
+                                <input type="text" class="form-control" id="validationCustom01" value
+                                  placeholder=" eg. John Smith" name="name" required />
+                                <div class="valid-feedback">Looks good!</div>
                               </div>
-                       
+
                               <div class="col-md-6 mb-3">
                                 <label for="validationCustom02">E-mail</label>
-                                <input type="email" class="form-control" id="validationCustom02" value=""
-                                  placeholder="example@abc.com" required>
+                                <input type="email" class="form-control" id="validationCustom02" value
+                                  placeholder="example@abc.com" name="email" required />
                               </div>
-
                             </div>
 
-
                             <div class="form-row">
-
                               <div class="col-md-8 mb-3">
-                                <label for="validationCustom03">Compound Name</label>
+                                <label for="validationCustom03">Product Name</label>
                                 <input type="text" class="form-control" id="validationCustom03"
-                                  value="<%= product.displayName %>" required readonly>
+                                  value="<%= product.displayName %>" name="product" required readonly />
                               </div>
 
                               <div class="col-md-4 mb-3">
                                 <label for="validationCustom04">Quantity (kg)</label>
-                                <input type="number" class="form-control" id="validationCustom04" min="0" step="0.100" value=""
-                                  required>
+                                <input type="number" class="form-control" id="validationCustom04" min="0" step="0.100"
+                                  value name="qty" required />
                               </div>
-
                             </div>
 
-
                             <div class="form-row">
-
                               <div class="col-md-12 mb-3">
                                 <label for="validationCustom05">Address</label>
-                                <input type="text" class="form-control" id="validationCustom05" value=""
-                                   required>
+                                <input type="text" class="form-control" id="validationCustom05" value name="address"
+                                  required />
                                 <div class="invalid-feedback">
                                   Please Enter a valid Address.
                                 </div>
+                              </div>
+
+                              <div>
+
+                                <input type="hidden" name="phone" value="null" id="validationCustom06"/>
+
+                                <input type="hidden" name="msg" id="validationCustom07" value="Requesting GET QUOTE" />
+                      
                               </div>
 
                             </div>
 
                             <div class="form-group">
                               <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <input class="form-check-input" type="checkbox" value id="invalidCheck" required />
                                 <label class="form-check-label" for="invalidCheck">
                                   Agree to terms and conditions
                                 </label>
@@ -223,44 +272,43 @@
                             </div>
 
                             <div class="modal-footer">
-                              <button type="button" class="btn gbtn b-clr" data-dismiss="modal">Close</button>
-                              <button class="btn  obtn b-clr" type="submit">Submit</button>
+                              <button type="button" class="btn gbtn b-clr" data-dismiss="modal">
+                                Close
+                              </button>
+                              <button class="btn obtn b-clr" type="submit">
+                                Submit
+                              </button>
                             </div>
-
                           </form>
-
-
-
-
-
-
-
                         </div>
-
                       </div>
                     </div>
                   </div>
-
-
-
                 </div>
-
               </div>
             </div>
-
-
           </div>
-
         </section>
         <section>
-          <div class="container" style="max-width: 900px;">
-            <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Packaging</h6>
+          <div class="container" style="max-width: 900px">
+            <h6 style="
+              font-weight: bolder;
+              font-style: oblique;
+              text-decoration: underline;
+            ">
+              Packaging
+            </h6>
             <%= product.packing %>
           </div>
         </section>
         <section>
-          <div class="container" style="max-width: 900px;">
-            <h6 style="font-weight: bolder; font-style: oblique; text-decoration: underline;">Applications
+          <div class="container" style="max-width: 900px">
+            <h6 style="
+              font-weight: bolder;
+              font-style: oblique;
+              text-decoration: underline;
+            ">
+              Applications
             </h6>
             <ol>
               <% product.applications.forEach(appl=> { %>
@@ -269,7 +317,8 @@
                 </li>
                 <% }) %>
             </ol>
-            <p style="font-weight: 100; font-size: smaller; font-style: italic;">* <%= product.note %>
+            <p style="font-weight: 100; font-size: smaller; font-style: italic">
+              * <%= product.note %>
             </p>
             <p>
               <%= product.manufacturer %>
@@ -277,11 +326,12 @@
           </div>
         </section>
         <section>
-          <div class="container" style="max-width: 900px;">
+          <div class="container" style="max-width: 900px">
             <div class="row justify-content-center">
               <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button"
-                  class="btn btn-theme" style="margin-right: 50px;">Download
-                  Brochure</button></a><button type="button" class="btn btn-theme">Enquiry</button>
+                  class="btn btn-theme" style="margin-right: 50px">
+                  Download Brochure
+                </button></a><button type="button" class="btn btn-theme">Enquiry</button>
             </div>
           </div>
         </section>
@@ -302,7 +352,6 @@
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
-
   </body>
 
 </html>
