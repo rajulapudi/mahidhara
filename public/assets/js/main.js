@@ -292,47 +292,50 @@
                 }, false);
               })();
 
-    const formSubmit= document.getElementById('formSubmit')
 
-    const name=document.getElementById("validationCustom01")
-    const email=document.getElementById("validationCustom02")
-    const compoundName=document.getElementById("validationCustom03")
-    const quantity=document.getElementById("validationCustom04")
-    const address=document.getElementById("validationCustom05")
+    
+    // Code for GET QUOTE form Submission
+const formSubmit = document.getElementById('formSubmit');
 
+formSubmit.addEventListener("submit", function createForm(event) {
+  event.preventDefault();
+  const name = document.getElementById("validationCustom01").value;
+  const email = document.getElementById("validationCustom02").value;
+  const product = document.getElementById("validationCustom03").value;
+  const qty = document.getElementById("validationCustom04").value;
+  const address = document.getElementById("validationCustom05").value;
+  const phone = document.getElementById("validationCustom06").value;
+  const msg = document.getElementById("validationCustom07").value;
 
-    formSubmit.addEventListener("submit",function createForm(event){
-      event.preventDefault()
-      console.log(name.value)
-      const data={
-        name: name.value,
-        email: email.value,
-        compoundName: compoundName.value,
-        quantity:quantity.value,
-        address: address.value
+  const data = {
+    data: {
+    name,
+    email,
+    product,
+    qty,
+    address,
+    phone,
+    msg
+    }
+  };
+
+  fetch('https://content.techpranee.com/api/leads-mahidharas', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data),
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
       }
-
-      fetch('https://content.techpranee.com/api/leads-mahidharas', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data), 
-      })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json(); 
-        })
-        .then(data => {
-        //  console.log(data)
-        })
-        .catch(error => {
-          console.log(error);
-        });
-
+      return response.json();
     })
-
-
-              
+    .then(data => {
+      $('#exampleModal').modal('hide');
+    })
+    .catch(error => {
+      console.log(error);
+    });
+});
