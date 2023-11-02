@@ -6,8 +6,8 @@
   <%- include('header', {products: products}); -%>
   <%- include('heroSection'); -%>
   <main id="main">
-    <%- include('contactSites'); -%>
-    <%- include('contact'); -%>
+    <%- include('contactSites',{products: products}); -%>
+    <%- include('contact',{products: products}); -%>
   </main>
   <%- include('footer'); -%>
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
