@@ -37,17 +37,19 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-          <form action="https://content.techpranee.com/api/leads-mahidharas" novalidate method="post" role="form" id="contactForm" class="php-email-form">
+          <!-- action="https://content.techpranee.com/api/leads-mahidharas" -->
+
+          <form  novalidate id="contactForm" method="post" role="form"  class="php-email-form">
             
             <div class="form-row">
 
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="contactName" placeholder="Your Name" value=""/>
+                <input type="text" name="name" class="form-control" id="contactName" placeholder="Your Name" value="" required/>
                 <div class="validate"></div>
               </div>
 
               <div class="col-md-6 form-group">
-                <input type="email" class="form-control" value="" name="email" id="contactEmail" placeholder="Your Email" />
+                <input type="email" class="form-control" value="" name="email" id="contactEmail" placeholder="Your Email" required/>
                 <div class="validate"></div>
               </div>
 
@@ -56,10 +58,10 @@
             <div class="form-row">
 
               <div class="col-md-6 form-group">
-                <select id="productDropdown" class="form-control" >
+                <select id="productDropdown" class="form-control" required>
                   <option disabled selected>Products</option>                  
                   <% products.forEach(prod => { %>
-                    <option value="/product/<%- prod.displayUrl %>"><%- prod.displayName %></option>
+                    <option value="<%- prod.displayUrl %>"><%- prod.displayName %></option>
                   <% }) %>
                 </select>
                 <div class="validate"></div>
@@ -70,9 +72,9 @@
 
               <div>
 
-                <input type="hidden" name="phone" value="null" id="contactPhone"/>
+                <input type="hidden"  name="phone" value="null" id="contactPhone"/>
 
-                <input type="hidden" name="msg" id="contactMsg" value="submitting Contact Details" />
+                <input type="hidden"  name="msg" id="contactMsg" value="Submitting Contact Details" />
       
               </div>
 
