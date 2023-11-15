@@ -4,16 +4,90 @@
       <h2>Products</h2>
       <p>We offer wide range of DERIVATIVES & FINE CHEMICALS.</p>
     </div>
+
+
+    
+
+
+<h3 class="productCategory" data-aos="zoom-out">MAIN PRODUCTS</h3>
     <div class="row">
-      <% products.forEach(prod => { %>
-        <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
-          <div class="icon-box" data-aos="zoom-in-left">
-            <!-- <div class="icon"><img src="<%= prod.image %>" alt="" width="80"></div> -->
-            <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> <a  class="btn btn-brochure" href="<%= prod.downloadLink %>" download="<%= prod.displayName %>.pdf"><i style="padding-right: 5px;" class='bx bxs-download'></i> Brochure</a></h4>
-            <p class="description">CAS # <%- prod.cas %> </p>
+      <% products.forEach(prod => {
+        if (prod.category === "main-product") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a></h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
           </div>
-        </div>
-      <% }) %>
+      <% } }); %> 
     </div>
+
+    <h3 class="productCategory" data-aos="zoom-out">ORGANOMETALIC PRODUCTS</h3>
+    <div class="row">
+      <% products.forEach(prod => {
+        if (prod.category === "organometalic-product") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> </h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
+          </div>
+      <% } }); %> 
+    </div>
+
+    <h3 class="productCategory" data-aos="zoom-out">METAL ALKOXIDES</h3>
+    <div class="row">
+      <% products.forEach(prod => {
+        if (prod.category === "metal-alkoxides") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> </h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
+          </div>
+      <% } }); %> 
+    </div>
+
+    <h3 class="productCategory" data-aos="zoom-out">GRIGNARD REAGENT</h3>
+    <div class="row">
+      <% products.forEach(prod => {
+        if (prod.category === "grignard-reagent") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> </h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
+          </div>
+      <% } }); %> 
+    </div>
+
+    <h3 class="productCategory" data-aos="zoom-out">UNDER PIPELINE</h3>
+    <div class="row">
+      <% products.forEach(prod => {
+        if (prod.category === "under-pipeline") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> </h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
+          </div>
+      <% } }); %> 
+    </div>
+
+
+    <h3 class="productCategory" data-aos="zoom-out">OTHER PRODUCTS</h3>
+    <div class="row">
+      <% products.forEach(prod => {
+        if (prod.category === "other-product") { %>
+          <div class="col-lg-4 col-md-6" style="padding-top: 5px;">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <h4 class="title"><a href="/product/<%- prod.displayUrl %> "><%= (prod.displayName.toUpperCase()) %> </a> </h4>
+              <p class="description">CAS # <%- prod.cas %> </p>
+            </div>
+          </div>
+      <% } }); %> 
+    </div>
+
+
   </div>
 </section>
