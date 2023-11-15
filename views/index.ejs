@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('head'); -%>
+<%- include('head', {products: products}); -%>
 
 <body>
   <%- include('header', {products: products}); -%>
@@ -11,10 +11,15 @@
     <%- include('callToAction'); -%>
     <%- include('services', {products: products}); -%>
     <!-- <%- include('portfolio'); -%> -->
+    <%- include('certificate'); -%>
+
     <%- include('contact'); -%>
   </main>
   <%- include('footer'); -%>
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="whatsapp-icon" onclick="openWhatsApp()">
+    <img src="assets/img/whatsapp-icon-logo.png" class="whatsapp"></img>
+  </div>
   <!-- <div id="preloader"></div> -->
 
   <!-- Vendor JS Files -->
