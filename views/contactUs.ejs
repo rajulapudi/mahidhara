@@ -7,10 +7,15 @@
   <%- include('heroSection'); -%>
   <main id="main">
     <%- include('contactSites',{products: products}); -%>
+    <%- include('certificate'); -%>
+
     <%- include('contact',{products: products}); -%>
   </main>
   <%- include('footer'); -%>
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="whatsapp-icon" onclick="openWhatsApp()">
+    <img src="assets/img/whatsapp-icon-logo.png" class="whatsapp"></img>
+  </div>
   <!-- <div id="preloader"></div> -->
 
   <!-- Vendor JS Files -->
