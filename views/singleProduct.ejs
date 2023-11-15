@@ -331,13 +331,16 @@
               <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button"
                   class="btn btn-theme" style="margin-right: 50px">
                   Download Brochure
-                </button></a><button type="button" class="btn btn-theme">Enquiry</button>
+                </button></a><button type="button" class="btn btn-theme" id="enquiry-btn">Enquiry</button>
             </div>
           </div>
         </section>
       </main>
       <%- include('footer'); -%>
         <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+        <div id="whatsapp-icon" onclick="openWhatsApp()">
+          <img src="assets/img/whatsapp-icon-logo.png" class="whatsapp"></img>
+        </div>
         <!-- <div id="preloader"></div> -->
 
         <!-- Vendor JS Files -->
