@@ -523,3 +523,61 @@ if (msdsForm) {
       });
   });
 }
+
+
+
+
+
+// js for megamenu dropdown
+
+let productDropdownTimer; // Timer variable to delay hiding the dropdown
+
+function showProductDropdown() {
+  const productDropdown = document.getElementsByClassName("list-container")
+  productDropdown.style.display = "inline-flex"; // Show the dropdown
+  clearTimeout(productDropdownTimer); // Clear the timer (if any)
+}
+
+function hideProductDropdown() {
+  // Delay hiding the dropdown for 2 seconds
+  productDropdownTimer = setTimeout(() => {
+    const productDropdown = document.getElementById("product-dropdown");
+    productDropdown.style.display = "none"; // Hide the dropdown
+  }, 2000); // 2 seconds (2000 milliseconds)
+}
+
+
+
+// code for enquiry button.
+
+const enquiryBtn = document.getElementById("enquiry-btn")
+
+function openModal() {
+  $("#exampleModal").modal('show');
+}
+// Add click event listeners to both buttons
+enquiryBtn.addEventListener('click', openModal);
+
+
+
+// to keep detalis tag close in mabile navbaar 
+document.addEventListener("DOMContentLoaded", function() {
+  const detailsElement = document.querySelector('details');
+
+  function updateDetailsState() {
+    // Check the screen width and set the open attribute accordingly
+    detailsElement.open = window.innerWidth > 1366;
+  }
+
+  // Initial update
+  updateDetailsState();
+
+  // Update on window resize
+  window.addEventListener('resize', updateDetailsState);
+});
+
+
+// for whatsaap massege
+function openWhatsApp() {
+  window.open('https://wa.me/9848389154?&text=Hello team Mahidhara, I am interested in your products.', '_blank'); 
+}
