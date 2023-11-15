@@ -37,8 +37,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
-  bottom: 15px;
+  right: 20px;
+  bottom: 20px;
   z-index: 99999;
 }
 
@@ -141,7 +141,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  background: #ef6603;
+  /* background: #ef6603; */
   text-decoration: none;
 }
 
@@ -158,9 +158,9 @@ h6 {
   transition: ease all 0.3s;
   border-radius: 15px;
   margin-top: 5px;
-  max-height: 100vh; /* Set a maximum height for the dropdown */
-  overflow-y: auto;  /* Add a vertical scrollbar when the content overflows */
-}
+  max-height: 100vh; 
+  overflow-y: auto;  
+} */
 
 .nav-menu .drop-down:hover > ul {
   opacity: 1;
@@ -214,9 +214,9 @@ h6 {
   font-family: IcoFont;
   position: absolute;
   right: 15px;
-}
+}  
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
@@ -226,7 +226,7 @@ h6 {
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
-}
+} */
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -271,7 +271,7 @@ h6 {
 }
 
 .mobile-nav a {
-  display: block;
+  display: inherit;
   position: relative;
   color: #2a2c39;
   padding: 10px 20px;
@@ -1645,6 +1645,13 @@ section {
   font-size: 13px;
 }
 
+.x-twitter{
+  width: 18px;
+  text-align: center;
+  align-items: center;
+  padding: 1px;
+}
+
 /* Custom CSS */
 .featureImg {
   margin-top: 5px;
@@ -1755,3 +1762,419 @@ section {
 .gbtn{
   background-color: rgb(80, 77, 77);
 }
+
+
+
+/*  css for product list megamenu */
+
+.list-container {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.centered-div {
+  display: none;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-78%, -50%);
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 220px;
+  border-radius: 20px;
+  cursor: initial; /* Prevent cursor interactions within the dropdown */
+  z-index: 1;
+
+  padding: 20px;
+}
+
+.column {
+  /* display: flex;
+  justify-content: center; */
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  text-align: left;
+  /* margin: 10px; */
+  padding: 2px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 2px;
+  margin: 2px;
+
+}
+
+ /* .column li {
+
+} */
+
+.column h4 {
+color: #ef6603;
+font-size: 18px;
+font-weight: bold;
+padding: 10px 0px 3px 0px;
+}
+
+.column a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin-left: 0;
+padding-left: 0;
+}
+
+.product-button {
+  cursor: pointer;
+}
+
+.product-button:hover + #product-dropdown,
+#product-dropdown:hover {
+  display: inline-flex;
+}
+
+
+#product-dropdown:hover {
+  display: inline-flex;
+}
+
+/* Add styles for the list-container */
+.list-container:hover #product-dropdown {
+  display: inline-flex;
+}
+
+.column li a:hover{
+  color:  #ef6603;
+  text-decoration: underline;
+}
+
+
+.nav-list-container{
+  display: none;
+visibility: hidden;
+}
+
+
+
+@media (max-width: 1300px) {
+
+  .list-container{
+    display: none;
+  visibility: hidden;
+  }
+
+
+
+  .nav-list-container{
+    display: flex;
+  flex-direction: column;
+  box-sizing:content-box;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    visibility: visible;
+  }
+
+  .nav-column {
+    display: flex;
+  flex-direction: column;
+    vertical-align: top;
+    width: fit-content;
+    text-align: left;
+    /* margin-bottom: 5px; */
+  }
+
+  .nav-list-container:hover #nav-product-dropdown {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .nav-product-button:hover + #nav-product-dropdown,
+#nav-product-dropdown:hover {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.nav-column a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin-left: 0;
+padding-left: 0;
+
+}
+
+.nav-column li a:hover{
+  color:  #ef6603;
+  text-decoration: underline;
+}
+
+  /* .column {
+    display: block;
+    width: 100%;
+  } */
+
+  .nav-centered-div {
+    display: none;
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    height:fit-content;
+    top: 50%;
+  left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: white;
+    margin-top: 1px;
+    padding-left: 50px;
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  
+   
+
+    /* style for details tag */
+
+
+    summary{
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+    }
+
+    .nav-column h4 {
+      color: #46464b;
+      font-size: 15px;
+/* font-weight: bold; */
+    }
+
+    .nav-column h4:hover{
+      color:  #ef6603;
+    }
+    
+    summary::after {
+      content: "﹀"; /* Unicode character for a right-pointing angle bracket */
+      color: #46464b;
+      margin-top: 8px;
+      font-size: 14px ;/* Adjust the font size as needed */
+      font-weight: bold;
+      margin-left: 5px; /* Adjust the margin as needed */
+    }
+    
+    details[open] summary::after {
+      content: "﹀"; /* Unicode character for a right-pointing angle bracket */
+      color:  #ef6603;
+
+      .nav-column h4{
+        color:  #ef6603;
+      }
+    } 
+ 
+
+  }
+
+
+
+}
+
+
+
+
+
+.productCategory{
+  text-align: center;
+  margin: 10px;
+  padding: 30px 0px 10px 0px;
+  font-size: 20px;
+  font-weight: 650;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #46464b;
+}
+
+.productCategory:hover{
+  color: #2a2a2d;
+}
+
+
+/* Styling for the WhatsApp icon */
+#whatsapp-icon {
+  position: fixed;
+  bottom: 50%;
+  right: 11px;
+}
+.whatsapp{
+    width: 60px;
+}
+
+
+
+
+.c-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.c-card {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: auto;
+  align-items: center; /* Center horizontally */
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c-card:hover {
+  transform: scale(1.05);
+}
+
+.li-logo{
+  width: 50%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.smi-logo{
+  width: 77%;
+}
+
+.c-card-content {
+  padding: 15px;
+}
+
+.c-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.download-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  /* color: #007bff; */
+  text-decoration: none;
+  /* font-weight: bold; */
+  
+}
+
+.cer-btn{
+width: 90px;
+  height: 30px;
+  border-radius: 40px;
+  padding: 2px 8px 2px 8px;
+  background: #ef6603;
+  border: 1px solid rgb(19, 9, 9); 
+  color: white;
+
+}
+
+.cer-btn:hover{
+  
+    background: #fb6900;
+  
+  
+  }
+
+@media (max-width: 768px) {
+  .c-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
+ @media screen and (min-width: 991px) and (max-width: 1300px) {
+  .centered-div {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav-centered-div
+   {
+    display: none;
+    visibility: hidden;
+  }
+
+} 
+
+
+@media screen and (max-width: 1480px) {
+  
+  .centered-div {
+    display: none;
+    position: absolute;
+    width: 98vw;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-79%, -50%);
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 200px;
+    border-radius: 20px;
+    cursor: initial; /* Prevent cursor interactions within the dropdown */
+    z-index: 1;
+  
+    padding: 10px;
+  }
+  
+  
+  .column h4 {
+  color: #ef6603;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0px 3px 0px;
+  }
+  
+  .column a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    margin-left: 0;
+  padding-left: 0;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1420px) {
+  
+  .centered-div {
+    
+    transform: translate(-80%, -50%);
+    
+  }
+ 
+}
+
+@media screen and (max-width: 1370px) {
+  
+  .centered-div {
+    width: 99vw;
+    transform: translate(-80.5%, -50%);
+    
+  }
+ 
+}
+
+
+
