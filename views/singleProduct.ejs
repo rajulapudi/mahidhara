@@ -155,6 +155,8 @@
                               <div>
                                 <input type="hidden" name="name" id="msdsName" value="null" />
 
+                                <input type="hidden" name="companyName" id="msdsCompanyName" value="null" />
+
                                 <input type="hidden" name="product" value="<%= product.displayName %>" id="msdsProduct" />
 
                                 <input type="hidden" name="qty" id="msdsQuantity" value="0" />
@@ -188,6 +190,10 @@
                   <a href="<%= product.downloadLink %>" download="<%= product.downloadLink %>.pdf"
                     target="_self"><button class="buton obtn">SPECIFICATION</button></a>
 
+
+
+
+
                   <!-- Button trigger modal -->
                   <!-- Button trigger modal -->
                   <button type="button" class="buton gbtn" data-toggle="modal" data-target="#exampleModal">
@@ -210,6 +216,7 @@
                         <div class="modal-body">
                           <form class="needs-validation" novalidate id="formSubmit"
                             action="https://content.techpranee.com/api/leads-mahidharas" method="post">
+                           
                             <div class="form-row">
                               <div class="col-md-6 mb-3">
                                 <label for="validationCustom01">Name</label>
@@ -224,6 +231,29 @@
                                   placeholder="example@abc.com" name="email" required />
                               </div>
                             </div>
+
+
+
+
+                            <div class="form-row">
+                              <div class="col-md-7 mb-3">
+                                <label for="validationCustom08">Company Name</label>
+                                <input type="text" class="form-control" id="validationCustom08" value
+                                  placeholder=" eg. Mahidhara Chemicals" name="company-name" required />
+                                <div class="valid-feedback">Looks good!</div>
+                              </div>
+
+                              <div class="col-md-5 mb-3">
+                                <label for="validationCustom06">Phone</label>
+                                <input type="text" class="form-control" id="validationCustom06" value="" name="phone" pattern="[6-9]\d{10}" placeholder="+91 0000000000" maxlength="10" minlength="10" required />
+                                <div class="valid-feedback">
+                                    Please enter a valid 10-digit phone number starting with 6, 7, 8, or 9.
+                                </div>
+                            </div>
+                            
+                            </div>
+
+
 
                             <div class="form-row">
                               <div class="col-md-8 mb-3">
@@ -251,7 +281,6 @@
 
                               <div>
 
-                                <input type="hidden" name="phone" value="null" id="validationCustom06"/>
 
                                 <input type="hidden" name="msg" id="validationCustom07" value="Requesting GET QUOTE" />
                       
