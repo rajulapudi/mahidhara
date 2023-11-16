@@ -367,6 +367,7 @@
   );
 })();
 
+
 // Code for GET QUOTE form Submission
 const formSubmit = document.getElementById("formSubmit");
 
@@ -380,6 +381,7 @@ if (formSubmit) {
     const address = document.getElementById("validationCustom05").value;
     const phone = document.getElementById("validationCustom06").value;
     const msg = document.getElementById("validationCustom07").value;
+    const companyName = document.getElementById("validationCustom08").value;
 
     const data = {
       data: {
@@ -390,6 +392,7 @@ if (formSubmit) {
         address,
         phone,
         msg,
+        companyName,
       },
     };
 
@@ -434,6 +437,9 @@ if (contactForm) {
     const address = document.getElementById("contactAddress").value;
     const phone = document.getElementById("contactPhone").value;
     const msg = document.getElementById("contactMsg").value;
+    const companyName= null;
+
+
 
     const data = {
       data: {
@@ -444,6 +450,7 @@ if (contactForm) {
         address,
         phone,
         msg,
+        companyName,
       },
     };
 
@@ -488,6 +495,7 @@ if (msdsForm) {
     const address = document.getElementById("msdsAddress").value;
     const phone = document.getElementById("msdsPhone").value;
     const msg = document.getElementById("msdsMsg").value;
+    const companyName=document.getElementById("msdsCompanyName").value;
 
     const data = {
       data: {
@@ -498,6 +506,7 @@ if (msdsForm) {
         address,
         phone,
         msg,
+        companyName,
       },
     };
 
