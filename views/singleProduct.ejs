@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
 <%- include('singleHead', {products: products}); -%>
-
+<link rel="canonical" href="https://mahidhara.com/product" />
+</head>
   <body>
     <%- include('header', {products: products}); -%>
       <main id="main">
@@ -188,7 +190,7 @@
                   </div>
 
                   <a href="<%= product.downloadLink %>" download="<%= product.downloadLink %>.pdf"
-                    target="_self"><button class="buton obtn">SPECIFICATION</button></a>
+                    ><button class="buton obtn">SPECIFICATION</button></a>
 
 
 
