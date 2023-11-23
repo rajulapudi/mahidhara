@@ -1763,6 +1763,18 @@ section {
   background-color: rgb(80, 77, 77);
 }
 
+@media (max-width: 430px) {
+  .gbtn{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 310px) {
+  .m-mrg{
+    margin-top: 5px;
+  }
+}
+
 
 
 /*  css for product list megamenu */
