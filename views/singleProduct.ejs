@@ -3,6 +3,10 @@
   <head>
 <%- include('singleHead', {products: products}); -%>
 <link rel="canonical" href="https://mahidhara.com/product" />
+<title>Mahidhara Chemicals Pvt Ltd - Products</title>
+<meta name="description" content="Mahiidhara Chemicals offer wide range of Derivaties& Fine chemicals."/>
+<meta name="keywords" content="Organometallic products, Metal Alkoxides, Grignard Reagents , Sodium derivates and other alkali metal products" />
+
 </head>
   <body>
     <%- include('header', {products: products}); -%>
@@ -320,7 +324,7 @@
             </div>
           </div>
         </section>
-        <section>
+        <section class="s-product">
           <div class="container" style="max-width: 900px">
             <h6 style="
               font-weight: bolder;
@@ -332,7 +336,7 @@
             <%= product.packing %>
           </div>
         </section>
-        <section>
+        <section class="s-product">
           <div class="container" style="max-width: 900px">
             <h6 style="
               font-weight: bolder;
@@ -356,7 +360,7 @@
             </p>
           </div>
         </section>
-        <section>
+        <section class="s-product">
           <div class="container" style="max-width: 900px">
             <div class="row justify-content-center">
               <a href="<%= product.downloadLink %>" download="<%= product.displayName %>.pdf"><button type="button"
