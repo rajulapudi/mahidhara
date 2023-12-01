@@ -28,6 +28,10 @@ router.get('/contact', function (req, res, next) {
   res.render('contactUs', { products: products });
 });
 
+router.get('/aboutUs', function (req, res, next) {
+  res.render('aboutUs', { products: products });
+});
+
 
 
 
