@@ -4,7 +4,8 @@
       <!-- <h1 class="text-light"><a href="/">Mahidhara Chemicals</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="/"><img src="assets/img/mahidhara.png" alt class="img-fluid" />
-        <span class="text-light logoText">Mahidhara Chemicals</span></a>
+        <span class="text-light logoText">Mahidhara</span>
+        <span class="text-light logoText2">Chemicals Private Limited</span></a>
     </div>
 
     <nav class="nav-menu d-none d-lg-block">
@@ -38,87 +39,87 @@
             <div class="centered-div" id="product-dropdown">
 
               <div class="column">
-                  
-                    <h4>Main Products</h4><span>&nbsp;</span>
-                  
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "main-product").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
+
+                <h4>Main Products</h4><span>&nbsp;</span>
+
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "main-product").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
               </div>
 
 
 
               <div class="column">
-                 
-                    <h4>Organometalic Products</h4><span>&nbsp;</span>
-                 
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "organometalic-product").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
+
+                <h4>Organometalic Products</h4><span>&nbsp;</span>
+
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "organometalic-product").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
               </div>
 
 
               <div class="column">
-                  
-                    <h4>Metal Alkoxides</h4><span>&nbsp;</span>
-                  
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "metal-alkoxides").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
+
+                <h4>Metal Alkoxides</h4><span>&nbsp;</span>
+
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "metal-alkoxides").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
               </div>
 
               <div class="column">
-                  
-                    <h4>Grignard Reagent</h4><span>&nbsp;</span>
-                  
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "grignard-reagent").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
-               
+
+                <h4>Grignard Reagent</h4><span>&nbsp;</span>
+
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "grignard-reagent").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
+
               </div>
 
               <div class="column">
-                    <h4>Under Pipeline</h4><span>&nbsp;</span>
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "under-pipeline").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%-prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
+                <h4>Under Pipeline</h4><span>&nbsp;</span>
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "under-pipeline").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%-prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
               </div>
 
               <div class="column">
-                    <h4>Other Products</h4><span>&nbsp;</span>
-                  <ul>
-                    <% products.filter(prod=> prod.category ===
-                      "other-product").forEach(prod => { %>
-                      <li>
-                        <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
-                      </li>
-                      <% }) %>
-                  </ul>
+                <h4>Other Products</h4><span>&nbsp;</span>
+                <ul>
+                  <% products.filter(prod=> prod.category ===
+                    "other-product").forEach(prod => { %>
+                    <li>
+                      <a href="/product/<%- prod.displayUrl %>"><%- prod.displayName %></a>
+                    </li>
+                    <% }) %>
+                </ul>
               </div>
 
             </div>
@@ -130,9 +131,8 @@
 
         <li>
           <div class="nav-list-container">
-            
-            <a class="product-button">Products <span
-                style="margin-top: 4px;">&nbsp;&#65088;</span></a>
+
+            <a class="product-button">Products <span style="margin-top: 4px;">&nbsp;&#65088;</span></a>
 
 
             <div class="nav-centered-div" id="nav-product-dropdown">
@@ -154,7 +154,7 @@
               </div>
 
               <div class="nav-column">
-                <details >
+                <details>
                   <summary>
                     <h4>Organometalic Products</h4><span>&nbsp;</span>
                   </summary>
@@ -170,7 +170,7 @@
               </div>
 
               <div class="nav-column">
-                <details >
+                <details>
                   <summary>
                     <h4>Metal Alkoxides</h4><span>&nbsp;</span>
                   </summary>
@@ -186,7 +186,7 @@
               </div>
 
               <div class="nav-column">
-                <details >
+                <details>
                   <summary>
                     <h4>Grignard Reagent</h4><span>&nbsp;</span>
                   </summary>
@@ -202,7 +202,7 @@
               </div>
 
               <div class="nav-column">
-                <details >
+                <details>
                   <summary>
                     <h4>Under Pipeline</h4><span>&nbsp;</span>
                   </summary>
@@ -232,7 +232,7 @@
                   </ul>
                 </details>
               </div>
-              
+
             </div>
           </div>
         </li>

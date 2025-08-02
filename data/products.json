@@ -275,45 +275,7 @@
         "category":"organometalic-product",
         "about":"Potassium Bis(trimethylsilyl)amide is also abbreviated as potassium HMDS. It is also called potassium hexamethyldisilazide or hexamethyldisilazane potassium salt and is sterically hindered in strong base. It is used for the strong, non-nucleophilic base in deprotonations."
     },
-    {
-        "displayName": "Magnesium Methoxide Solution",
-        "name": "Magnesiun Methoxide",
-        "cas": "109-88-6",
-        "molformula": "(CH3)2OMg ",
-        "image": "/assets/img/prodimg/Magnesium_Methoxide.png",
-        "molwt": "86.37 gm/mol",
-        "synonyms": "Magnesium methylate, Magnesium methanolate, Methanol, magnesium salt, Magnesium dimethoxide",
-        "pubchem": "",
-        "specifications": [
-            {
-                "key": "Description ",
-                "value": "An off white to white colour powder"
-            },
-            {
-                "key": "Assay % w/w ",
-                "value": "Min 95.0%w/w"
-            },
-            {
-                "key": "",
-                "value": ""
-            }
-        ],
-        "packing": "5 kgs of net material packed in double lined polythene bags under nitrogen atmosphere. 15nos of such packets are packed under nitrogen blanket into a ring lock MS/HDPE container with top lid removable.",
-        "applications": [
-            "The use of magnesium methoxide for the de-protection of alkyl esters is described.",
-            "Used as Auxiliary product for Organic Synthesis."
-        ],
-        "note": "None",
-        "manufacturer": "Mahidhara Chemicals Private Limited is one of the leading manufacturers of Ethyl Magnesium bromide in India. We have more than 2 decade experience in manufacturing this product and you can rely on the quality. It is one of the popular product due to varied uses ranging coupling reactions, nucleophilic aliphatic subtraction and elimination reactions, and while reacting with other carbonyl compounds. The product is referred to as Grignard reagent popularly and is used in various organic compounds synthesis. Contact Mahidhara Chemicals Private Limited team now for more details.",
-        "displayUrl": "magnesiun-methoxide",
-        "downloadLink": "/assets/brochures/Magnesium_Methoxide.pdf",
-        "metaKeyword" : "magnesium methoxide,manufacturer in india, magnesium methoxide suppliers in india,Magnesium Methoxide (10%-14%) in Methanol ",
-        "metaDescription" : "Mahidhara chemicals private limited is the leading for magnesium methoxide manufacturer in india and supply various products all over in India",
-        "metaTitle" : "magnesium methoxide manufacturer in india:Mahidhara chemicals Pvt ltd",
-        "msds" : "",
-        "category":"metal-alkoxides",
-        "about":"Mahidhara Chemicals Private limited is the leading magnesium methoxide manufacturer in India.Magnesium Methoxide formula is (CH3)2OMg) and its weight is 86.37gm/mol."
-    },
+   
     {
         "displayName": "Magnesium Methoxide (in Methanol)",
         "name": "Magnesiun Methoxide solution 10 - 14% in Methanol",
